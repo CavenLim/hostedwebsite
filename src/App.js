@@ -15,7 +15,7 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-rou
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Switch>
           <Route path="/about">
