@@ -10,12 +10,12 @@ import TaskCowPrivacy from'./pages/TaskCowPrivacy';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Footer from './Components/Footer';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <NavBar />
         <Switch>
           <Route path="/about">
@@ -54,7 +54,7 @@ function App() {
         </Switch>
         <Footer />
 
-      </Router>
+      </BrowserRouter>
 
     </>
   );
