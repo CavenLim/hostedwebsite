@@ -5,12 +5,16 @@ import Typography from './styles/FontStuffs';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <>
    <AllStyles />
     <Typography />
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
+   
   </>,
   document.getElementById('root')
 );
