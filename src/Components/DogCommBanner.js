@@ -172,7 +172,7 @@ export default function DogCommBanner() {
                     <Marginer direction="vertical" margin={20}/>
                     <ButtonsDivStyle className="Buttons">
                     <BtnGo id="bt" onClick={() => onClick('https://testflight.apple.com/join/op0mYbS9')} outline={false}><GrAppleAppStore/></BtnGo>
-                    <BtnGo id="bt2" onClick={() => onClick2('/dogcomm')}outline={false}><FaArrowRight/></BtnGo>
+                    <BtnGo id="bt2" onClick={() => onClick2('/#/dogcomm')}outline={false}><FaArrowRight/></BtnGo>
                     </ButtonsDivStyle>
                     
                 </SloganContainer>

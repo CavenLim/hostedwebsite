@@ -172,7 +172,7 @@ export default function SolarEduBanner() {
                     <Marginer direction="vertical" margin={20}/>
                     <ButtonsDivStyle className="Buttons">
                     <BtnGo id="bt" onClick={() => onClick('https://xd.adobe.com/view/b069d9c8-a272-4ace-ae9e-e55b05f31f6f-e53a/')} outline={false}><SiAdobexd/></BtnGo>
-                    <BtnGo id="bt2" onClick={() => onClick2('/solaredu')}outline={false}><FaArrowRight/></BtnGo>
+                    <BtnGo id="bt2" onClick={() => onClick2('/#/solaredu')}outline={false}><FaArrowRight/></BtnGo>
                     </ButtonsDivStyle>
                     
                 </SloganContainer>

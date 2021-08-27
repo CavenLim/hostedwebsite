@@ -172,7 +172,7 @@ export default function TaskCowBanner() {
                     <Marginer direction="vertical" margin={20}/>
                     <ButtonsDivStyle className="Buttons">
                     <BtnGo id="bt" onClick={() => onClick('https://apps.apple.com/sg/app/taskcow/id1565968348')} outline={false}><GrAppleAppStore/></BtnGo>
-                    <BtnGo id="bt2" onClick={() => onClick2('/taskcow')}outline={false}><FaArrowRight/></BtnGo>
+                    <BtnGo id="bt2" onClick={() => onClick2('/#/taskcow')}outline={false}><FaArrowRight/></BtnGo>
                     </ButtonsDivStyle>
                     
                 </SloganContainer>

@@ -171,7 +171,7 @@ export default function RpAppBanner() {
                     <Marginer direction="vertical" margin={20}/>
                     <ButtonsDivStyle className="Buttons">
                     <BtnGo id="bt" onClick={() => onClick('https://xd.adobe.com/view/d9d25d4c-5c48-4ac1-af73-445c5c4b0463-8c81/screen/cfc4de97-da1c-422c-81b3-4fdb418181ad')} outline={false}><SiAdobexd/></BtnGo>
-                    <BtnGo id="bt2" onClick={() => onClick2('/rpapp')}outline={false}><FaArrowRight/></BtnGo>
+                    <BtnGo id="bt2" onClick={() => onClick2('/#/rpapp')}outline={false}><FaArrowRight/></BtnGo>
                     </ButtonsDivStyle>
                     
                 </SloganContainer>
