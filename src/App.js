@@ -14,8 +14,8 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-rou
 
 function App() {
   return (
-    <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <div>
+      <Router>
         <NavBar />
         <Switch>
           <Route path="/about">
@@ -54,9 +54,9 @@ function App() {
         </Switch>
         <Footer />
 
-      </BrowserRouter>
+      </Router>
 
-    </>
+    </div>
   );
 }
 
