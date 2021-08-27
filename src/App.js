@@ -12,53 +12,109 @@ import Projects from './pages/Projects';
 import Footer from './Components/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div>
-      <Router>
-        <NavBar />
+
+class App extends Component {
+  render(){
+    return(
+        <HashRouter basename="/">
+           <div>
+         <NavBar />
         <Switch>
-          <Route path={process.env.PUBLIC_URL+"/about"}>
-            <About />
+         <Route path="/about">
+             <About />
           </Route>
 
-          <Route path={process.env.PUBLIC_URL+ "/dogcomm"}>
+          <Route path="/dogcomm">
             <DogCommDetails />
+           </Route>
+
+          <Route path="/solaredu">
+           <SolarEduDetails />
           </Route>
 
-          <Route path={process.env.PUBLIC_URL+ "/solaredu"}>
-            <SolarEduDetails />
-          </Route>
-
-          <Route path={process.env.PUBLIC_URL+ "/taskcowprivacy"}>
+          <Route path= "/taskcowprivacy">
             <TaskCowPrivacy />
           </Route>
 
-          <Route path={process.env.PUBLIC_URL+"/rpapp"}>
+          <Route path="/rpapp">
             <RpAppDetails />
           </Route>
 
-          <Route path={process.env.PUBLIC_URL+"/taskcow"}>
+         <Route path="/taskcow">
             <TaskCowDetails />
           </Route>
 
-          <Route path={process.env.PUBLIC_URL+"/projects"}>
-            <Projects />
-          </Route>
-          <Route path={process.env.PUBLIC_URL+"/"}>
+          <Route path="/projects">
+           <Projects />
+         </Route>
+         <Route path="/">
             <Home />
-          </Route>
+           </Route>
 
          
 
-        </Switch>
+         </Switch>
         <Footer />
 
-      </Router>
+   
 
     </div>
-  );
+
+
+
+        </HashRouter>
+    );
+  }
 }
+
+// function App() {
+//   return (
+//     <div>
+//       <Router>
+//         <NavBar />
+//         <Switch>
+//           <Route path={process.env.PUBLIC_URL+"/about"}>
+//             <About />
+//           </Route>
+
+//           <Route path={process.env.PUBLIC_URL+ "/dogcomm"}>
+//             <DogCommDetails />
+//           </Route>
+
+//           <Route path={process.env.PUBLIC_URL+ "/solaredu"}>
+//             <SolarEduDetails />
+//           </Route>
+
+//           <Route path={process.env.PUBLIC_URL+ "/taskcowprivacy"}>
+//             <TaskCowPrivacy />
+//           </Route>
+
+//           <Route path={process.env.PUBLIC_URL+"/rpapp"}>
+//             <RpAppDetails />
+//           </Route>
+
+//           <Route path={process.env.PUBLIC_URL+"/taskcow"}>
+//             <TaskCowDetails />
+//           </Route>
+
+//           <Route path={process.env.PUBLIC_URL+"/projects"}>
+//             <Projects />
+//           </Route>
+//           <Route path={process.env.PUBLIC_URL+"/"}>
+//             <Home />
+//           </Route>
+
+         
+
+//         </Switch>
+//         <Footer />
+
+//       </Router>
+
+//     </div>
+//   );
+// }
 
 export default App;
