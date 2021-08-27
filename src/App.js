@@ -11,6 +11,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Footer from './Components/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,34 +19,34 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route path="/about">
+          <Route path={process.env.PUBLIC_URL+"/about"}>
             <About />
           </Route>
 
-          <Route path="/dogcomm">
+          <Route path={process.env.PUBLIC_URL+ "/dogcomm"}>
             <DogCommDetails />
           </Route>
 
-          <Route path="/solaredu">
+          <Route path={process.env.PUBLIC_URL+ "/solaredu"}>
             <SolarEduDetails />
           </Route>
 
-          <Route path="/taskcowprivacy">
+          <Route path={process.env.PUBLIC_URL+ "/taskcowprivacy"}>
             <TaskCowPrivacy />
           </Route>
 
-          <Route path="/rpapp">
+          <Route path={process.env.PUBLIC_URL+"/rpapp"}>
             <RpAppDetails />
           </Route>
 
-          <Route path="/taskcow">
+          <Route path={process.env.PUBLIC_URL+"/taskcow"}>
             <TaskCowDetails />
           </Route>
 
-          <Route path="/projects">
+          <Route path={process.env.PUBLIC_URL+"/projects"}>
             <Projects />
           </Route>
-          <Route path="/">
+          <Route path={process.env.PUBLIC_URL+"/"}>
             <Home />
           </Route>
 
