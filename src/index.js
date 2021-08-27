@@ -11,11 +11,11 @@ import { HashRouter } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
    
-    <HashRouter>
+    <BrowserRouter>
     <AllStyles />
     <Typography />
     <App />
-    </HashRouter>
+    </BrowserRouter>
    
   </React.StrictMode>,
   document.getElementById('root')
