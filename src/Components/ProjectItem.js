@@ -52,7 +52,8 @@ export default function ProjectItem({
 }) {
     return (
         <ProjectItemStyles>
-            <Link to={`${title}`} className="projectItemImg">
+            
+            <Link to={`${title.toLowerCase()}`} className="projectItemImg">
                 <img src={img} alt=""  resizeMode="contain"/>
             </Link>
             <div className="projectInfo">
