@@ -2,7 +2,7 @@ import React from 'react';
 import PText from '../Components/Text';
 import placeholder3 from'../assets/Images/placeholder3.jpg'
 import styled from 'styled-components';
-import DuckMode from'../assets/Images/DuckModeIcon.png';
+import DuckMode from '../assets/Images/DuckModeIcon.png'
 
 const AboutPageStyles = styled.div`
     padding:20rem 0 10rem 0;
