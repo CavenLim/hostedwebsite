@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.0f23564a.chunk.js",
-    "main.js.map": "/static/js/main.0f23564a.chunk.js.map",
+    "main.js": "/static/js/main.e35305e6.chunk.js",
+    "main.js.map": "/static/js/main.e35305e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8aef3f3.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8aef3f3.js.map",
     "static/css/2.43289133.chunk.css": "/static/css/2.43289133.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/Cow.da9f0786.png": "/static/media/Cow.da9f0786.png",
     "static/media/CreatePage.d8ed8e2e.png": "/static/media/CreatePage.d8ed8e2e.png",
     "static/media/DarkModeMacBg.53d266f6.png": "/static/media/DarkModeMacBg.53d266f6.png",
-    "static/media/DuckModeIcon.b9a6b339.png": "/static/media/DuckModeIcon.b9a6b339.png",
+    "static/media/DuckModeIcon.abfb35f7.png": "/static/media/DuckModeIcon.abfb35f7.png",
     "static/media/EventsPage.515b651f.jpeg": "/static/media/EventsPage.515b651f.jpeg",
     "static/media/FirstPage.0fcc7e24.png": "/static/media/FirstPage.0fcc7e24.png",
     "static/media/HomePage.8529d6eb.png": "/static/media/HomePage.8529d6eb.png",
@@ -87,6 +87,6 @@
     "static/js/runtime-main.b8aef3f3.js",
     "static/css/2.43289133.chunk.css",
     "static/js/2.7b3dc737.chunk.js",
-    "static/js/main.0f23564a.chunk.js"
+    "static/js/main.e35305e6.chunk.js"
   ]
 }
