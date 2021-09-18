@@ -13,6 +13,7 @@ import Footer from './Components/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 import { Component } from 'react';
+import DuckModePrivacy from './pages/DuckModePrivacy';
 
 
 class App extends Component {
@@ -36,6 +37,10 @@ class App extends Component {
 
           <Route path= "/taskcowprivacy">
             <TaskCowPrivacy />
+          </Route>
+
+          <Route path= "/duckmodeprivacy">
+            <DuckModePrivacy />
           </Route>
 
           <Route path="/rpapp">
