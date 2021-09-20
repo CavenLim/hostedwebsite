@@ -15,6 +15,14 @@ const ProjectStyles = styled.div`
         grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
         gap:5rem;
         margin-top:5rem;
+        img{
+            object-fit: contain;
+        }
+        .projectItemImg{
+    
+            border:none;
+   
+        }
     }
     .searchBar{
         position: relative;
@@ -32,6 +40,7 @@ const ProjectStyles = styled.div`
     }
     .searchBar .searchIcon{
         position: absolute;
+        color:var(--black);
         width: 2rem;
         right:1rem;
     }

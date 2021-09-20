@@ -11,7 +11,7 @@ import {FaArrowRight} from 'react-icons/fa';
 const TaskCowBannerContainer = styled.div`
 
     width: 100%;
-    height:390px;
+    height:450px;
     display: flex;
     background-image: linear-gradient(to bottom right, blue, cyan);
     align-items: center;

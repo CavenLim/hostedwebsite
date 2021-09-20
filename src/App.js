@@ -6,6 +6,7 @@ import TaskCowDetails from './pages/TaskCowDetails';
 import DogCommDetails from './pages/DogCommDetails';
 import RpAppDetails from './pages/RpAppDetails';
 import SolarEduDetails from'./pages/SolarEduDetails';
+import DuckModeDetails from'./pages/DuckModeDetails';
 import TaskCowPrivacy from'./pages/TaskCowPrivacy';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -49,6 +50,10 @@ class App extends Component {
 
          <Route path="/taskcow">
             <TaskCowDetails />
+          </Route>
+
+          <Route path="/duckmode">
+            <DuckModeDetails />
           </Route>
 
           <Route path="/projects">

@@ -8,6 +8,7 @@ import TaskCowBanner from '../Components/TaskCowBanner';
 import RpAppBanner from '../Components/RpAppBanner';
 import SolarEduBanner from '../Components/SolarEduBanner';
 import DogCommBanner from '../Components/DogCommBanner';
+import DuckModeBanner from '../Components/DuckModeBanner';
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <AboutSect/>
             <IntroSec/> 
             <ProjectSect/>
+            <DuckModeBanner/>
             <TaskCowBanner/>
             <DogCommBanner/>
             <RpAppBanner/>
