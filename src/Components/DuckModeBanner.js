@@ -1,23 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
-import TaskCow2 from '../assets/Images/TaskCow2.png';
+import DuckModeIcon from '../assets/Images/DuckModeIcon.png';
 import Button from './Button';
 import { Marginer } from './marginer';
 import {GrAppleAppStore} from 'react-icons/gr';
 import { NavLink } from 'react-router-dom';
 
 import {FaArrowRight} from 'react-icons/fa';
-
+//#FFDA6F
 const TaskCowBannerContainer = styled.div`
 
     width: 100%;
-    height:390px;
+    height:490px;
     display: flex;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to right, #D6AA2C, #FFDA6F);
     align-items: center;
     justify-content: center;
     position: relative;
-    .custom-shape-divider-top-1631953116 {
+
+    .custom-shape-divider-top-1631952459 {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,18 +27,17 @@ const TaskCowBannerContainer = styled.div`
     line-height: 0;
 }
 
-.custom-shape-divider-top-1631953116 svg {
+.custom-shape-divider-top-1631952459 svg {
     position: relative;
     display: block;
-    width: calc(205% + 1.3px);
-    height: 81px;
+    width: calc(100% + 1.3px);
+    height: 86px;
 }
 
-.custom-shape-divider-top-1631953116 .shape-fill {
-    fill: #FFFFFF;
-    opacity: 0.3;
+.custom-shape-divider-top-1631952459 .shape-fill {
+    fill: var(--dark-bg);
+    
 }
-
 .custom-shape-divider-bottom-1631953452 {
     position: absolute;
     bottom: 0;
@@ -175,6 +175,7 @@ const ImageApp = styled.div`
     height: 19em;
 
     img{
+        object-fit: contain;
         width: 100%;
         height: 100%;
     }
@@ -206,38 +207,38 @@ function onClick2(urlName){
   
 }
 
-export default function TaskCowBanner() {
+export default function DuckModeBanner() {
     return (
         <TaskCowBannerContainer>
-        <div class="custom-shape-divider-top-1631953116">
+          <div class="custom-shape-divider-top-1631952459">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
     </svg>
 </div>
             <ContentContainer>
                 <SloganContainer>
                    <Marginer direction="vertical" margin="1em"/>
                     <SloganContainer>
-                        <SloganTitle>TaskCow</SloganTitle>
+                        <SloganTitle>DuckMode</SloganTitle>
                         <Slogan>
-                            Let your productivity go up with TaskCow
+                            Find your desired colours with
                         </Slogan>
                         <Slogan>
-                            and your Home Screen
+                            DuckMode
                         </Slogan>
                         <Slogan>
-                            as you get reminded of tasks you set!
+                            as you design or code etc..
                         </Slogan>
                     </SloganContainer>
                     <Marginer direction="vertical" margin={20}/>
                     <ButtonsDivStyle className="Buttons">
-                    <BtnGo id="bt" onClick={() => onClick('https://apps.apple.com/sg/app/taskcow/id1565968348')} outline={false}><GrAppleAppStore/></BtnGo>
-                    <BtnGo id="bt2" onClick={() => onClick2('/#/taskcow')}outline={false}><FaArrowRight/></BtnGo>
+                    <BtnGo id="bt" onClick={() => onClick('https://apps.apple.com/sg/app/duckmode/id1586440491?mt=12')} outline={false}><GrAppleAppStore/></BtnGo>
+                    <BtnGo id="bt2" onClick={() => onClick2('/#/duckmode')}outline={false}><FaArrowRight/></BtnGo>
                     </ButtonsDivStyle>
                     
                 </SloganContainer>
                 <ImageApp>
-                    <img src={TaskCow2} alt="" />
+                    <img src={DuckModeIcon} alt="" />
                 </ImageApp>
             </ContentContainer>
             <div class="custom-shape-divider-bottom-1631953452">
