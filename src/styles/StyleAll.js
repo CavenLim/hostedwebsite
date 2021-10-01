@@ -18,6 +18,7 @@ const AllStyles = createGlobalStyle`
     font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont;
     background-color: var(--dark-bg);
+    
   }
   ul,li{
     list-style: none;
