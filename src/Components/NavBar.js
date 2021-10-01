@@ -32,7 +32,7 @@ const NavBarStyles = styled.div`
         }
         a {
             display: inline-block;
-            font-family: -apple-system, BlinkMacSystemFont;
+            font-family: -apple-system, sans-serif;
             padding: 1rem 2rem;
             font-size:2rem;
             color:var(--gray-1);

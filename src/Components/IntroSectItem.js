@@ -14,7 +14,7 @@ text-align: center;
 
 .introItemTitle{
     font-size: 2.5rem;
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, sans-serif;
 
 }
 

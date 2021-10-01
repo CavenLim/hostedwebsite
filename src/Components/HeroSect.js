@@ -31,7 +31,7 @@ const HeroStyles = styled.div`
     }
     .heroName{
         font-size:7rem;
-        font-family: -apple-system, BlinkMacSystemFont;
+        font-family: -apple-system, sans-serif;
         color: var(--white);
     }
    

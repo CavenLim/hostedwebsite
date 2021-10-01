@@ -29,7 +29,7 @@ const ProjectItemStyles = styled.div`
 
 .projectItemDesc{
     font-size:1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, sans-serif;
     margin-top: 1rem;
 }
 
