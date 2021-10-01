@@ -10,6 +10,7 @@ import DuckModeDetails from'./pages/DuckModeDetails';
 import TaskCowPrivacy from'./pages/TaskCowPrivacy';
 import About from './pages/About';
 import Projects from './pages/Projects';
+
 import Footer from './Components/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
@@ -51,6 +52,7 @@ class App extends Component {
          <Route path="/taskcow">
             <TaskCowDetails />
           </Route>
+         
 
           <Route path="/duckmode">
             <DuckModeDetails />
