@@ -16,7 +16,7 @@ const AllStyles = createGlobalStyle`
   }
   html{
     font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, sans-serif;
     background-color: var(--dark-bg);
     
   }

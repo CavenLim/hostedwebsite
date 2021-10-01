@@ -5,11 +5,11 @@ const SectionTitleStyles =  styled.div`
 
 text-align: center;
 p{
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, sans-serif;
     font-size:2rem;
 }
 h2{
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, sans-serif;
     font-size: 5.8rem;
     margin-top:0.5rem;
     text-transform:uppercase;
