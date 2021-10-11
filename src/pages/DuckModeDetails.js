@@ -393,24 +393,24 @@ export default function DuckModeDetails() {
                 <div className="projAllItem">
                     <Swiper spaceBetween={22} slidesPerView={1} navigation
 
-                    // breakpoints = {
-                    //     {
-                    //         640:{
-                    //             slidesPerView:1,
-                    //         },
-                    //         760:{
-                    //             slidesPerView:2,
-                    //         },
-                    //         1200:{
-                    //             slidesPerView:3,
-                    //         }
-                    //     }
+                    breakpoints = {
+                        {
+                            640:{
+                                slidesPerView:1,
+                            },
+                            760:{
+                                slidesPerView:2,
+                            },
+                            1200:{
+                                slidesPerView:3,
+                            }
+                        }
                     
-                    // }
+                    }
                   
                     >
                         {duckModeSS.map((project, index)=>{
-                            if (index >= 2) return;
+                            if (index >= 5) return;
 
                             return(
                                 <SwiperSlide key={project.id}>
