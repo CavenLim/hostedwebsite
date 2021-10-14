@@ -155,12 +155,13 @@ export default function About() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            I am a student studying from Singapore studying Mobile Software Development at Republic Polytechnic. 
-                            I am very interested in UI design/UX design, also keen of becoming a software developer.
+                            I am a student from Singapore studying Mobile Software Development at Republic Polytechnic. 
+                            I am very interested in UI design/UX design, also keen of becoming a software developer in years to come.
                         <br/><br/>
 
                         This is the site where you'll be able to see my app concepts as well as application i have developed. I will say applications regarding animals
-                        will interest me a lot since im a huge cow and dog lover, so definitely if you have an application idea regarding animals hit me up.
+                        will interest me a lot since im a huge cow and dog lover, so definitely if you have an application idea regarding animals hit me up. You should be able to
+                        tell since most of my app's branding revolves around animal that can also be understood as my style whenever designing app's icons.
                         
                             </PText>
                         </div>
@@ -202,19 +203,26 @@ export default function About() {
                         
                         title = "Frontend"
                         item = {[
-                            "HTML","CSS","JavaScript","SwiftUi"
+                            "Html","Css","JavaScript","SwiftUi"
                         ]}/>
                         <AboutInfoItem
                         
                         title = "Backend"
                         item = {[
-                            "PHP","PYTHON"
+                            "Php","Python"
                         ]}/>
                          <AboutInfoItem
                         
                         title = "Design"
                         item = {[
                             "Adobe XD","Figma","Photoshop"
+                        ]}/>
+
+                        <AboutInfoItem
+                        
+                        title = "Others"
+                        item = {[
+                            "OutSystems"
                         ]}/>
                     </div>
                 </div>
