@@ -15,7 +15,9 @@ const NavBarStyles = styled.div`
     left:0;
     width:100%;
     padding: 1rem 0;
-    background-color: rgba(37,37,37,0.92);
+    //background-color: rgba(37,37,37,0.92);
+    background-color: rgba(30,30,30,0.94);
+
     ul{
         max-width: 1200px;
         margin:0 auto;
@@ -72,7 +74,7 @@ const NavBarStyles = styled.div`
             --top:1rem;
             transition: none.3s ease transform;
             //background-color: var(--deep-dark);
-            background-color: rgba(30,30,30,0.90);
+            background-color: rgba(30,30,30,0.94);
             padding: 2rem;
             width:90%;
             max-width: 300px;

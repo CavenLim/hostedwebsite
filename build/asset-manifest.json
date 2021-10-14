@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.19790ea0.chunk.js",
-    "main.js.map": "/static/js/main.19790ea0.chunk.js.map",
+    "main.js": "/static/js/main.96ae72bc.chunk.js",
+    "main.js.map": "/static/js/main.96ae72bc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8aef3f3.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8aef3f3.js.map",
     "static/css/2.43289133.chunk.css": "/static/css/2.43289133.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/Chat.10ebfa30.png": "/static/media/Chat.10ebfa30.png",
     "static/media/Color.3ae8f66d.jpeg": "/static/media/Color.3ae8f66d.jpeg",
     "static/media/ColorAccent.27c6eb18.png": "/static/media/ColorAccent.27c6eb18.png",
+    "static/media/ComplementaryColours.fb822609.png": "/static/media/ComplementaryColours.fb822609.png",
     "static/media/CongratsPage.6a0da5e9.png": "/static/media/CongratsPage.6a0da5e9.png",
     "static/media/Cow.da9f0786.png": "/static/media/Cow.da9f0786.png",
     "static/media/CreatePage.d8ed8e2e.png": "/static/media/CreatePage.d8ed8e2e.png",
@@ -27,7 +28,7 @@
     "static/media/DuckModeIcon.24c7836e.png": "/static/media/DuckModeIcon.24c7836e.png",
     "static/media/EventsPage.515b651f.jpeg": "/static/media/EventsPage.515b651f.jpeg",
     "static/media/FirstPage.0fcc7e24.png": "/static/media/FirstPage.0fcc7e24.png",
-    "static/media/HomePage.4afdcaa1.png": "/static/media/HomePage.4afdcaa1.png",
+    "static/media/HomePage.641420f6.png": "/static/media/HomePage.641420f6.png",
     "static/media/HomePage.8529d6eb.png": "/static/media/HomePage.8529d6eb.png",
     "static/media/HomePageEarth.703e75e6.png": "/static/media/HomePageEarth.703e75e6.png",
     "static/media/IconsAll.a6420137.png": "/static/media/IconsAll.a6420137.png",
@@ -37,7 +38,7 @@
     "static/media/LaunchScreen.761b5650.png": "/static/media/LaunchScreen.761b5650.png",
     "static/media/LaunchScreen.9c9d5b02.png": "/static/media/LaunchScreen.9c9d5b02.png",
     "static/media/Leo2.0.3a5a9e3a.png": "/static/media/Leo2.0.3a5a9e3a.png",
-    "static/media/LightMode.d05ec5b6.png": "/static/media/LightMode.d05ec5b6.png",
+    "static/media/LightMode.1f67731c.png": "/static/media/LightMode.1f67731c.png",
     "static/media/LightModeMacBg.747927cb.png": "/static/media/LightModeMacBg.747927cb.png",
     "static/media/Location.9152acb4.jpeg": "/static/media/Location.9152acb4.jpeg",
     "static/media/Location1.372d0b4d.png": "/static/media/Location1.372d0b4d.png",
@@ -50,6 +51,7 @@
     "static/media/OnBoard.c4a0f0fa.png": "/static/media/OnBoard.c4a0f0fa.png",
     "static/media/PlanetsMenu.81944044.png": "/static/media/PlanetsMenu.81944044.png",
     "static/media/QuizPage.859ebc2d.png": "/static/media/QuizPage.859ebc2d.png",
+    "static/media/RandomColor.03638caa.png": "/static/media/RandomColor.03638caa.png",
     "static/media/RpApp.ab56b563.jpg": "/static/media/RpApp.ab56b563.jpg",
     "static/media/RpApp2.39eb9f88.png": "/static/media/RpApp2.39eb9f88.png",
     "static/media/RpCalendar.496ed63d.jpg": "/static/media/RpCalendar.496ed63d.jpg",
@@ -68,6 +70,7 @@
     "static/media/SolarEdu2.194c5063.png": "/static/media/SolarEdu2.194c5063.png",
     "static/media/TaskCow.39abf8be.png": "/static/media/TaskCow.39abf8be.png",
     "static/media/TaskCow2.3742b83b.png": "/static/media/TaskCow2.3742b83b.png",
+    "static/media/TonesPage.d5d9519c.png": "/static/media/TonesPage.d5d9519c.png",
     "static/media/Venus.5dbdfe2a.png": "/static/media/Venus.5dbdfe2a.png",
     "static/media/VenusInfoPage.ecdfe752.png": "/static/media/VenusInfoPage.ecdfe752.png",
     "static/media/VenusTexture.d9268290.jpg": "/static/media/VenusTexture.d9268290.jpg",
@@ -92,6 +95,6 @@
     "static/js/runtime-main.b8aef3f3.js",
     "static/css/2.43289133.chunk.css",
     "static/js/2.a044e023.chunk.js",
-    "static/js/main.19790ea0.chunk.js"
+    "static/js/main.96ae72bc.chunk.js"
   ]
 }
