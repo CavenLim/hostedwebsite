@@ -53,16 +53,19 @@ const NavBarStyles = styled.div`
         a {
             display: inline-block;
             font-family: -apple-system, sans-serif;
+            font-weight:lighter;
             padding: 1rem 2rem;
-            font-size:2rem;
-            color:var(--gray-1);
+            font-size:1.7rem;
+            color:rgb(150,144,144);
+            
             outline: none;
         }
         .active{
-            color:var(--gray-1);
+            color:rgb(201,195,195);
             font-weight:lighter;
             float:left;
             padding:1rem;
+            font-size:2rem;
           
             
         }
@@ -127,6 +130,8 @@ const NavBarStyles = styled.div`
             li{
                 display: block;
                 margin-bottom:1rem;
+                font-size: 2rem;
+ 
             }
             .active{
             color:var(--white);
