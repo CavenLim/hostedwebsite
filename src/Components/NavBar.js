@@ -13,24 +13,42 @@ const NavBarStyles = styled.div`
     z-index:100;
     top:0;
     left:0;
+    
     width:100%;
     padding: 1rem 0;
     //background-color: rgba(37,37,37,0.92);
     background-color: rgba(30,30,30,0.94);
+    
+
+    .webName{
+        float:left;
+        padding-top:1rem;
+
+        p{
+            font-size: 2rem;
+            color:var(--white);
+            font-weight:bolder;
+            font-family: -apple-system, sans-serif;
+        }
+    }
 
     ul{
         max-width: 1200px;
         margin:0 auto;
         width: 90%;
-        text-align: center;
+        text-align: right;
+     
+
         li {
-            display: inline-block;
+            display: inline;
+            
             border-radius: 8px;
             transition: .3s ease background-color;
             &:hover{
                 background-color: var(--deep-dark);
 
             }
+            
         }
         a {
             display: inline-block;
@@ -41,7 +59,12 @@ const NavBarStyles = styled.div`
             outline: none;
         }
         .active{
-            color:var(--white);
+            color:var(--gray-1);
+            font-weight:lighter;
+            float:left;
+            padding:1rem;
+          
+            
         }
     }
     .mobile-navbar-icon{
@@ -70,6 +93,14 @@ const NavBarStyles = styled.div`
         .hide-item{
            transform:translateY(calc(-100% - var(--top)));
         }
+        ul{
+            text-align: center;
+        }
+
+    .webName{
+       display: none;
+      
+    }
         .navBar{
             --top:1rem;
             transition: none.3s ease transform;
@@ -97,6 +128,13 @@ const NavBarStyles = styled.div`
                 display: block;
                 margin-bottom:1rem;
             }
+            .active{
+            color:var(--white);
+            float:none;
+            padding:none;
+            font-weight:normal;
+            }
+            
         }
        
 
@@ -115,7 +153,13 @@ export default function NavBar() {
                 tabIndex={0}>
        <MdMenu/>
        </div>
+      
             <ul className={!showNavBar ? 'navBar hide-item':'navBar'}>
+
+                <div className="webName" >
+                    <p>Caven Lim's</p>
+                </div>
+         
                 <div className="closeNavBarIcon" 
                 onClick={() => setShowNavBar(!showNavBar)} 
                 role="button" 
@@ -124,6 +168,8 @@ export default function NavBar() {
                     <MdClose />
                 </div>
                 <li>
+                
+             
                     <NavLink to="/" exact  
                     onClick={() => setShowNavBar(!showNavBar)} 
                 role="button" 
