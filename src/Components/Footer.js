@@ -3,6 +3,7 @@ import PText from './Text'
 import FooterCol from './FooterCol'
 import styled from 'styled-components'
 
+
 const FooterStyles = styled.div`
     padding-top:10rem;
     background-color: var(--deep-dark);
@@ -113,8 +114,8 @@ export default function Footer() {
                                
                             },
                             {
-                                title:"Instagram",
-                                path:" https://www.instagram.com/cavenisaacow/",
+                                title:"GitHub",
+                                path:" https://github.com/CavenLim",
                                
                             },
 
