@@ -10,8 +10,12 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import designs from '../assets/data/designs';
 import AboutDesigns from '../Components/AboutDesigns';
 import SwiperCore , {Navigation} from 'swiper';
+import {SiSwift,SiHtml5,SiCss3,SiJavascript,SiPhp,SiPython,SiAdobexd,SiFigma,SiAdobephotoshop} from 'react-icons/si';
+
 
 SwiperCore.use([Navigation])
+
+
 
 
 const AboutImagesStyles = styled.div`
@@ -204,19 +208,27 @@ export default function About() {
                         title = "Frontend"
                         item = {[
                             "Html","Css","JavaScript","SwiftUi"
-                        ]}/>
+                        ]
+                       }
+                       image = {[<SiHtml5/>,<SiCss3/>,<SiJavascript/>,<SiSwift/>]}
+                       
+                       />
                         <AboutInfoItem
                         
                         title = "Backend"
                         item = {[
                             "Php","Python"
-                        ]}/>
+                        ]}
+                        image = {[<SiPhp/>,<SiPython/>]}
+                        />
                          <AboutInfoItem
                         
                         title = "Design"
                         item = {[
                             "Adobe XD","Figma","Photoshop"
-                        ]}/>
+                        ]}
+                        image = {[<SiAdobexd/>,<SiFigma/>,<SiAdobephotoshop/>]}
+                        />
 
                         <AboutInfoItem
                         

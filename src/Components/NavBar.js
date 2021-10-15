@@ -18,8 +18,8 @@ const NavBarStyles = styled.div`
     padding: 1rem 0;
     //background-color: rgba(37,37,37,0.92);
     background-color: rgba(30,30,30,0.94);
-    
-
+   
+  
     .webName{
         float:left;
         padding-top:1rem;
@@ -29,14 +29,32 @@ const NavBarStyles = styled.div`
             color:var(--white);
             font-weight:bolder;
             font-family: -apple-system, sans-serif;
+
+            .titleSpan{
+            color:rgb(201,195,195);
+            font-weight:lighter;
+           
+            font-size:2rem;
+            }
+            
         }
+       
+       
     }
+    .webName2{
+        display: none;
+     
+    }
+       
 
     ul{
         max-width: 1200px;
         margin:0 auto;
         width: 90%;
         text-align: right;
+     
+
+     
      
 
         li {
@@ -61,6 +79,7 @@ const NavBarStyles = styled.div`
             outline: none;
         }
         .active{
+           
             color:rgb(201,195,195);
             font-weight:lighter;
             float:left;
@@ -69,6 +88,7 @@ const NavBarStyles = styled.div`
           
             
         }
+       
     }
     .mobile-navbar-icon{
         position: absolute;
@@ -134,10 +154,10 @@ const NavBarStyles = styled.div`
  
             }
             .active{
-            color:var(--white);
-            float:none;
-            padding:none;
-            font-weight:normal;
+                color:var(--white);
+                float:none;
+                padding:none;
+                font-weight:normal;
             }
             
         }
@@ -147,10 +167,18 @@ const NavBarStyles = styled.div`
 
 `;
 
-export default function NavBar() {
+export default function NavBar({
+    
+   
+    title = '',
+
+}) {
     const[showNavBar,setShowNavBar]= useState(false);
+    
     return (
+        
         <NavBarStyles>
+            
        <div className="mobile-navbar-icon"   
        onClick={() => setShowNavBar(!showNavBar)} 
                 role="button" 
@@ -162,9 +190,12 @@ export default function NavBar() {
             <ul className={!showNavBar ? 'navBar hide-item':'navBar'}>
 
                 <div className="webName" >
-                    <p>Caven Lim's</p>
+               
+                    <p>Caven Lim's <span className="titleSpan">{title}</span>
+                    </p>
+                    
                 </div>
-         
+
                 <div className="closeNavBarIcon" 
                 onClick={() => setShowNavBar(!showNavBar)} 
                 role="button" 

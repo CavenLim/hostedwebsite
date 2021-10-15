@@ -23,45 +23,55 @@ class App extends Component {
     return(
         <HashRouter basename="/">
            <div>
-         <NavBar />
+        
         <Switch>
          <Route path="/about">
+         <NavBar/>
              <About />
           </Route>
 
           <Route path="/dogcomm">
+          <NavBar title="DogComm"/>
             <DogCommDetails />
            </Route>
 
           <Route path="/solaredu">
+          <NavBar title="SolarEdu"/>
            <SolarEduDetails />
           </Route>
 
           <Route path= "/taskcowprivacy">
+          <NavBar title="TaskCow"/>
             <TaskCowPrivacy />
           </Route>
 
           <Route path= "/duckmodeprivacy">
+          <NavBar title="DuckMode"/>
             <DuckModePrivacy />
           </Route>
 
           <Route path="/rpapp">
+          <NavBar title="RpApp"/>
             <RpAppDetails />
           </Route>
 
          <Route path="/taskcow">
+         <NavBar title="TaskCow"/>
             <TaskCowDetails />
           </Route>
          
 
           <Route path="/duckmode">
+          <NavBar title="DuckMode"/>
             <DuckModeDetails />
           </Route>
 
           <Route path="/projects">
+          <NavBar/>
            <Projects />
          </Route>
          <Route path="/">
+         <NavBar/>
             <Home />
            </Route>
 

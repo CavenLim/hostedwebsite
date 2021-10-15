@@ -13,6 +13,7 @@ h2{
     font-size: 5.8rem;
     margin-top:0.5rem;
     text-transform:uppercase;
+    color:var(--white);
 
 }
 @media only screen and (max-width:760px){
