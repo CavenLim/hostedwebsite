@@ -1,8 +1,11 @@
+import { Box,Container} from '@chakra-ui/react';
 import React from 'react';
 import styled from 'styled-components';
 import Cow from '../assets/Images/Cow.png';
 import Button from './Button';
 import PText from './Text';
+import VoxelDog from './VoxelDog';
+
 
 const HeroStyles = styled.div`
 
@@ -21,7 +24,7 @@ const HeroStyles = styled.div`
 
 .hero_header{
     font-size:2rem;
-    margin-bottom: -4rem;
+    margin-bottom: 4rem;
     position: relative;
   
     span{
@@ -55,11 +58,12 @@ const HeroStyles = styled.div`
         /* background-color: var(--deep-dark); */
     }
     .heroInfo{
-        margin-top:-25rem;
+        margin-top:-10rem;
 
     }
 
     @media only screen and (max-width:760px){
+      margin-top: -10rem;
         
         .heroImage{
                
@@ -73,6 +77,7 @@ const HeroStyles = styled.div`
                 }
           
         }
+       
         
     } 
 
@@ -81,16 +86,28 @@ const HeroStyles = styled.div`
 
 export default function HeroSect() {
     return (
+   
         <HeroStyles>
             <div className="hero">
+              
+            
             <div className="container">
                 <h1 className="hero_header">
                     <span>Hello! This is</span>
                     <span className="heroName">Caven Lim</span>
                 </h1>
-                <div className="heroImage">
+                
+               
+                
+                <Container maxW="container.xl" pt={-10}>
+                <VoxelDog/>
+       
+              
+                </Container>
+
+                {/* <div className="heroImage">
                     <img src={Cow} alt =""/>
-                </div>
+                </div> */}
                 <div className="heroInfo">
                     <PText>I am a front end and backend developer
                         currently still pursuing my diploma in
@@ -99,13 +116,16 @@ export default function HeroSect() {
                         on first sight.
                     
                     </PText>
-                    <Button btnLink="/projects" btnText="see my works" outline={false}/>
+                  
+
+
 
                 </div>
-              
+         
             
             </div>
             </div>
         </HeroStyles>
+ 
     )
 }
