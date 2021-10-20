@@ -17,7 +17,8 @@ const NavBarStyles = styled.div`
     width:100%;
     padding: 1rem 0;
     //background-color: rgba(37,37,37,0.92);
-    background-color: rgba(30,30,30,0.94);
+    background-color: rgba(30,30,30,0.90);
+    backdrop-filter: blur(15px);
    
   
     .webName{
