@@ -129,7 +129,8 @@ const NavBarStyles = styled.div`
             --top:1rem;
             transition: none.3s ease transform;
             //background-color: var(--deep-dark);
-            background-color: rgba(30,30,30,0.94);
+            background-color: rgba(30,30,30,0.90);
+            backdrop-filter: blur(15px);
             padding: 2rem;
             width:90%;
             max-width: 300px;
