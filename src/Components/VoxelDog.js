@@ -61,7 +61,7 @@ const VoxelDog = () => {
             
             })
 
-            loadGLTFModel(scene,'/dog2.glb',{
+            loadGLTFModel(scene,'/DogDone.glb',{
                 receiveShadow: false,
                 castShadow:false
 
@@ -69,6 +69,7 @@ const VoxelDog = () => {
                 animate()
                 setLoading(false)
                 controls.enableZoom=false
+                
             })
             
             let req = null
