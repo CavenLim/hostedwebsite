@@ -56,7 +56,7 @@ const VoxelDog = () => {
         
             setControls(controls)
             window.addEventListener('resize',function(){
-                renderer.setSize(window.innerWidth*0.8,560);
+                renderer.setSize(window.innerWidth*0.72,560);
                 camera.aspect=window.innerWidth/window.innerHeight;
             
             })
