@@ -113,6 +113,11 @@ export default function DuckModePrivacy() {
                         <br/><br/>
    
                             </PText>
+
+                            <PText>
+                                Recently, DuckMode started supporting iCloud syncing and we only use iCloud as a way to link saved colours between different devices so users will be able to
+                                use our application between devices without worry of data not syncing, other than the colour details we dont save any other data or have access to other User's information.
+                            </PText>
                         </div>
 
                         <h2 className="aboutHeader">
