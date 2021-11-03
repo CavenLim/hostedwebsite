@@ -217,9 +217,9 @@ export default function About() {
                         
                         title = "Backend"
                         item = {[
-                            "Php","Python"
+                            "Php","Python","JavaScript"
                         ]}
-                        image = {[<SiPhp/>,<SiPython/>]}
+                        image = {[<SiPhp/>,<SiPython/>,<SiJavascript/>]}
                         />
                          <AboutInfoItem
                         
