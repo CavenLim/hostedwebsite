@@ -1,19 +1,45 @@
 import { createGlobalStyle } from 'styled-components';
 
+
+
 const AllStyles = createGlobalStyle`
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-  :root{
+  @media (prefers-color-scheme: dark) {
+    :root{//[data-theme="dark"]
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
-    --white : white;
+    --white: white;
     --black: black;
+    --navbar-bg:rgba(30,30,30,0.90);
+    --a-navbar-color:rgb(150,144,144);
+    --active-navbar:rgb(201,195,195);
   }
+}
+
+@media (prefers-color-scheme: light) {
+  :root{
+    --dark-bg: #ffffff;
+    --gray-1: #000000;
+    --deep-dark: rgba(204,204,204,0.60);
+    --gray-2: #363636;
+    --white: black;
+    --black: white;
+    --navbar-bg:rgba(232,232,232,0.75);
+    --a-navbar-color:#000000;
+    --active-navbar:#000000;
+            
+           
+      
+  } 
+}
+ 
+
   html{
     font-size: 12px;
     font-family: -apple-system, sans-serif;

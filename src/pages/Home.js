@@ -11,7 +11,9 @@ import DogCommBanner from '../Components/DogCommBanner';
 import DuckModeBanner from '../Components/DuckModeBanner';
 
 export default function Home() {
+   
     return (
+
         <div>
             <HeroSect/>
             <AboutSect/>

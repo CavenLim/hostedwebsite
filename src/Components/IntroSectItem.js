@@ -9,8 +9,8 @@ text-align: center;
     svg{
         margin-top:3rem;
         width:3rem;
-        color: white;
-        fill:white;
+        color: var(--white);
+        fill:var(--white);
     }
 }
 

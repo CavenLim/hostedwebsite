@@ -100,7 +100,7 @@ const Slogan = styled.h2`
     margin: 0 ;
  
     font-size:20px;
-    color:  var(--white);
+    color:  white;
     font-weight: 450;
 
     @media only screen and (max-width:760px){
@@ -117,7 +117,7 @@ const SloganTitle = styled.h2`
     margin: 0 ;
     margin-bottom:2rem;
     font-size:30px;
-    color:  var(--white);
+    color:  white;
     font-weight: 700;
     
 
@@ -149,7 +149,7 @@ const BtnGo = styled.button`
 
 
     path{
-        color:var(--white);
+        color:white;
      
        
 

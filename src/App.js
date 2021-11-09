@@ -14,12 +14,15 @@ import Projects from './pages/Projects';
 import Footer from './Components/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
-import { Component } from 'react';
+import { Component,useState } from 'react';
 import DuckModePrivacy from './pages/DuckModePrivacy';
 
 
 class App extends Component {
+  
   render(){
+    
+ 
     return(
         <HashRouter basename="/">
            <div>
