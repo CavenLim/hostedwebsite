@@ -50,6 +50,22 @@ const AboutInfoItemStyles = styled.div`
     
     }
 
+    @media (prefers-color-scheme: light) {
+
+        .imageItem{
+     
+        
+        svg{
+           
+     
+        color: black;
+        fill:black;
+        }
+    
+    }
+  
+}
+
     @media only screen and (max-width: 760px){
         flex-direction: column;
         align-items: flex-start;
