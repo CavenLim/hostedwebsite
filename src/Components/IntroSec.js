@@ -35,6 +35,7 @@ padding:10rem 0;
 `
 
 export default function IntroSec() {
+    
     return (
         <IntroSecStyles>
            <div className="container">

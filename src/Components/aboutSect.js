@@ -121,7 +121,7 @@ export default function AboutSect() {
                 <div className="aboutSectionRight">
                         {/* <img className="aboutImg" src={AboutImage} alt="Img"/> */}
                         <div className="aboutSectBtn">
-                        <Button btnLink="/projects" btnText="Works" >
+                        <Button btnLink="/projects" btnText="Works" >   
                         </Button>
                         <Button btnLink="/about" btnText="Read More" outline>
                         </Button>

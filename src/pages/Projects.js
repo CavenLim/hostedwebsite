@@ -34,13 +34,14 @@ const ProjectStyles = styled.div`
         font-size: 2rem;
         padding: 0.8rem;
         color:var(--black);
+        background-color: var(--white);
         border-radius: 6px;
         outline: none;
         border:none;
     }
     .searchBar .searchIcon{
         position: absolute;
-        color:var(--black);
+        color:var(--white);
         width: 2rem;
         right:1rem;
     }

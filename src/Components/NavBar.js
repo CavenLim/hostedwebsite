@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import {MdMenu,MdClose} from 'react-icons/md';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 
 
@@ -17,9 +17,14 @@ const NavBarStyles = styled.div`
     width:100%;
     padding: 1rem 0;
     //background-color: rgba(37,37,37,0.92);
-    background-color: rgba(30,30,30,0.90);
-    backdrop-filter: blur(15px);
-   
+    background-color: var(--navbar-bg);
+    backdrop-filter: blur(14px);
+
+   button{
+       background-color: var(--navbar-bg);
+       /* color:none; */
+        padding: 0.5rem;
+   }
   
     .webName{
         float:left;
@@ -32,7 +37,7 @@ const NavBarStyles = styled.div`
             font-family: -apple-system, sans-serif;
 
             .titleSpan{
-            color:rgb(201,195,195);
+            color: var(--active-navbar);
             font-weight:lighter;
            
             font-size:2rem;
@@ -61,10 +66,12 @@ const NavBarStyles = styled.div`
         li {
             display: inline;
             
-            border-radius: 8px;
+            border-radius: 3px;
             transition: .3s ease background-color;
+            padding:1rem;
             &:hover{
                 background-color: var(--deep-dark);
+            
 
             }
             
@@ -75,13 +82,13 @@ const NavBarStyles = styled.div`
             font-weight:lighter;
             padding: 1rem 2rem;
             font-size:1.7rem;
-            color:rgb(150,144,144);
+            color:var(--a-navbar-color);
             
             outline: none;
         }
         .active{
            
-            color:rgb(201,195,195);
+            color: var(--active-navbar);
             font-weight:lighter;
             float:left;
             padding:1rem;
@@ -129,7 +136,7 @@ const NavBarStyles = styled.div`
             --top:1rem;
             transition: none.3s ease transform;
             //background-color: var(--deep-dark);
-            background-color: rgba(30,30,30,0.90);
+            background-color: var(--navbar-bg);
             backdrop-filter: blur(15px);
             padding: 2rem;
             width:90%;
@@ -177,9 +184,22 @@ export default function NavBar({
 }) {
     const[showNavBar,setShowNavBar]= useState(false);
     
+    const [darkMode, setDarkMode] = useState(false);
+ 
+   
+
+    function setIsDark(){
+        setDarkMode(darkMode ? false : true);
+        localStorage.setItem('isDarkMode',darkMode);
+    }
+    
+   
+
     return (
         
-        <NavBarStyles>
+        <NavBarStyles >
+            {/* data-theme={darkMode ? "dark" : "light"} */}
+
             
        <div className="mobile-navbar-icon"   
        onClick={() => setShowNavBar(!showNavBar)} 
@@ -228,6 +248,11 @@ export default function NavBar({
                 onKeyDown={()=> setShowNavBar(!showNavBar)} 
                 tabIndex={0}>Projects</NavLink>
                 </li>
+                
+               
+                {/* <button  style={{margin:"0.4rem"}} onClick={setIsDark}>
+                    {darkMode ? "☀️" : "🌑"}
+                </button> */}
               
             </ul>
         </NavBarStyles>
