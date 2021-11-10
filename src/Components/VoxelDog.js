@@ -14,7 +14,7 @@ const VoxelDog = () => {
     const [loading,setLoading]=useState(true)
     const [renderer,setRenderer] = useState()
     const [_camera,setCamera] = useState()
-    const [target] = useState(new THREE.Vector3(-0.5,1.2,0))
+    const [target] = useState(new THREE.Vector3(-0.4,1.2,0))//-0.5,1.2,0
     const [initialCameraPosition] = useState(
         new THREE.Vector3(0,100,1000
         )
@@ -56,8 +56,9 @@ const VoxelDog = () => {
         
             setControls(controls)
             window.addEventListener('resize',function(){
-                renderer.setSize(window.innerWidth*0.72,560);
+                renderer.setSize(window.innerWidth*0.70,560);
                 camera.aspect=window.innerWidth/window.innerHeight;
+                
             
             })
 
@@ -83,7 +84,7 @@ const VoxelDog = () => {
                 if(frame <= 100){
                     const p = initialCameraPosition
                     const rotSpeed = -easeOutCirc(frame/120) * Math.PI * 20
-                    camera.position.y=10
+                    camera.position.y= 70
                     camera.position.x= p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
                     camera.position.z= p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
                     camera.lookAt(target)
