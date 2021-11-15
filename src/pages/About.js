@@ -3,6 +3,7 @@ import PText from '../Components/Text';
 import Button from '../Components/Button';
 import placeholder3 from'../assets/Images/placeholder3.jpg'
 import topTaskCow from '../assets/Images/topTaskCow.png';
+import topDuckMode from '../assets/Images/DuckModeTop.png';
 import styled from 'styled-components';
 import AboutInfoItem from '../Components/AboutInfoItem';
 import SectTitle from '../Components/SectTitle'
@@ -283,6 +284,29 @@ export default function About() {
                     </div>
                     <div className="topRight">
                         <img src={topTaskCow} alt=""/>
+                    </div>
+
+                </div>
+                <br/>  <br/>  <br/>
+                <br/>  <br/>  <br/>
+
+                <div className="topSect">
+                    <div className="topLeft">
+                    <img src={topDuckMode} alt=""/>
+                       
+                     
+                    </div>
+                    <div className="topRight">
+                    
+
+                        <h2 className="aboutHeader">
+                            DuckMode
+                        </h2>
+                        <div className="aboutInfo">
+                            <PText>
+                            On 29 September 2021 my application DuckMode was on the top charts #184 in Singapore, it was one of my the first MacOs application I released.
+                            </PText>
+                        </div>
                     </div>
 
                 </div>

@@ -35,9 +35,9 @@ const designs = [
     },
     {
         id: 3,
-        name: "IMac WindMac",
+        name: "iMac WindMac",
         desc:
-          'A simple Mac inspired background for light mode.',
+          "My WindMac design used as iMac's background" ,
           img: iMacWindMac,
       },
     {
