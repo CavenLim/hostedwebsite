@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     name: 'DuckMode',
     desc:
-      'A color finder Application with the Ducks',
+      'A Color Finder Application with the Duck Theme.',
     img: DuckMode
     },
     {
@@ -43,6 +43,13 @@ const projects = [
       desc:
         'A prototype application where users like aspiring astronomers can learn about the different planets in our solar system as well as test their understandings of the planets.',
       img: SolarEdu,
+    },
+    {
+      id: 6,
+      name: "DogCommTwo",
+      desc:
+        'A further improvement and enhanced existing DogComm application, to allow real time friends matching between each dogs.',
+      img: dogComm,
     },
    
   ];

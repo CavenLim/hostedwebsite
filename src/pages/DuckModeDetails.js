@@ -313,7 +313,7 @@ export default function DuckModeDetails() {
                             The application I will like to create is a MacOS application that user can use to find their desired colours, It will allow for users to get colours they might want from a light/dark to dark/light mode especially in context of developers where now dark and light mode is almost a need to be supported in their apps.
                         <br/><br/>
                         WHY?
-                        <br/>
+                        <br/>    <br/>
                         To Solve issue of user needing to have to search and trial their colours in an inefficient way instead they can get their colours no matter what type of colour code they input ALL JUST IN DUCKMODE.
                         
                         <br/><br/>
@@ -410,7 +410,7 @@ export default function DuckModeDetails() {
                   
                     >
                         {duckModeSS.map((project, index)=>{
-                            if (index >= 5) return;
+                            if (index >= 7) return;
 
                             return(
                                 <SwiperSlide key={project.id}>
@@ -444,6 +444,17 @@ export default function DuckModeDetails() {
                                 This application was my first attempt on playing around colour codes especially playing with NSColor which is Swift's MacOS & AppKit colour Class. I will say
                                 that this application is more algorithm based since i went for simplistic UI design and focused more on the colour converting algorithm. It was tough at first because
                                 of limited knowledge but after i understood the colour more after 1 week of research and testing.
+
+                                <br/>      <br/>
+
+
+                                Furthermore, this is my first ever time integrating CloudKit which is Apple's iCloud which
+                                will allow for Apple device users to sync their data between devices as long as they are logged in with same Apple Id
+                                . From the young me that was wondering how such mechanism works until now where i'm able to integrate and use it as my own
+                                application's database, i will say i am quite proud of myself for that. Although i have used Core Data before which is the what the local database of Apple is called
+                                this is however a little different since i will need to merge the different colour datas between devices after each CRD(create,read,delete) operations.
+
+
 
                                 <br/>      <br/>
 
