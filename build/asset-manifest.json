@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.d6773f4a.chunk.js",
-    "main.js.map": "/static/js/main.d6773f4a.chunk.js.map",
+    "main.js": "/static/js/main.882d47c5.chunk.js",
+    "main.js.map": "/static/js/main.882d47c5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72048294.js",
     "runtime-main.js.map": "/static/js/runtime-main.72048294.js.map",
     "static/css/2.43289133.chunk.css": "/static/css/2.43289133.chunk.css",
@@ -26,6 +26,7 @@
     "static/media/DarkMode.61061524.png": "/static/media/DarkMode.61061524.png",
     "static/media/DarkModeMacBg.53d266f6.png": "/static/media/DarkModeMacBg.53d266f6.png",
     "static/media/DuckModeIcon.24c7836e.png": "/static/media/DuckModeIcon.24c7836e.png",
+    "static/media/DuckModeTop.852e724a.png": "/static/media/DuckModeTop.852e724a.png",
     "static/media/EventsPage.515b651f.jpeg": "/static/media/EventsPage.515b651f.jpeg",
     "static/media/FirstPage.0fcc7e24.png": "/static/media/FirstPage.0fcc7e24.png",
     "static/media/HomePage.641420f6.png": "/static/media/HomePage.641420f6.png",
@@ -95,6 +96,6 @@
     "static/js/runtime-main.72048294.js",
     "static/css/2.43289133.chunk.css",
     "static/js/2.36e5abd0.chunk.js",
-    "static/js/main.d6773f4a.chunk.js"
+    "static/js/main.882d47c5.chunk.js"
   ]
 }

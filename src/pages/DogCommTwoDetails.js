@@ -1,7 +1,7 @@
 import React from 'react';
 import PText from '../Components/Text';
 import Button from '../Components/Button';
-import DuckMode from '../assets/Images/DuckModeIcon.png'
+import dogComm from '../assets/Images/dogComm.png';
 import IconsAll from'../assets/DesignConceptTaskCow/IconsAll.png';
 
 import topTaskCow from '../assets/Images/topTaskCow.png';
@@ -9,18 +9,19 @@ import styled from 'styled-components';
 import AboutInfoItem from '../Components/AboutInfoItem';
 import SectTitle from '../Components/SectTitle'
 import {Swiper, SwiperSlide} from 'swiper/react';
-import duckModeSS from '../assets/data/duckModeSS';
+import DogCommSS from '../assets/data/dogCommSS';
 import AboutDesigns from '../Components/AboutDesigns';
 import SwiperCore , {Navigation} from 'swiper';
 import {GrAppleAppStore} from 'react-icons/gr';
 
 
-//duckMode design concepts images
+//taskcow design concepts images
 
-import DarkMode from '../assets/DuckModeImages/DarkMode.png'
-import LightMode from '../assets/DuckModeImages/LightMode.png'
-import SfSymbol from '../assets/DuckModeImages/SfSymbols.png'
-import Neuro from '../assets/DuckModeImages/Neuro.png'
+import Color from '../assets/DogCommImages/Color.jpeg';
+import BGColor from '../assets/DogCommImages/BGColor.png';
+import calendar from '../assets/DesignConceptTaskCow/calendar.jpg';
+import LaunchScreen from '../assets/DogCommImages/LaunchScreen.png';
+import DogCommTwoSS from '../assets/data/dogCommSSTwo';
 
 SwiperCore.use([Navigation])
 
@@ -89,7 +90,7 @@ const AboutTaskCowStyles = styled.div`
 
 .projectItemDesc{
     font-size:1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system, sans-serif;
     margin-top: 1rem;
 }
 
@@ -144,8 +145,8 @@ const AboutImagesStyles = styled.div`
         font-size:2rem;
     }
     .projectItemImg{
-                height: 80%;
-                width: 80%;
+                height: 56%;
+                width: 56%;
                 margin-left:4.3rem;
                
     }   
@@ -289,7 +290,7 @@ const AboutPageStyles = styled.div`
 
 `
 
-export default function DuckModeDetails() {
+export default function DogCommTwoDetails() {
     return (
         <AboutPageStyles>
             <div className="container">
@@ -298,38 +299,39 @@ export default function DuckModeDetails() {
                     <div className="left">
                         
                         <p className="aboutSubHead">
-                           <span>SwiftUi</span> <span>MacOS</span> <span>Figma</span>
-                           
+                           <span>React Native</span> <span>Next Js</span> <span>Firebase</span>
+                           <br/> <br/>
+                            <span>Tailwind CSS</span>
                            
                         </p>
                         <h2 className="aboutHeader">
-                            DuckMode
+                            DogComm 2.0
                         </h2>
                     
-                <BtnGo id="bt" onClick={() => onClick('https://apps.apple.com/sg/app/duckmode/id1586440491?mt=12')} outline={false}> <GrAppleAppStore/></BtnGo> <p>Try It Now</p>
-                <br/><br/>
+                        <br/><br/>
+
+                    
                         <div className="aboutInfo">
                             <PText>
-                            The application I will like to create is a MacOS application that user can use to find their desired colours, It will allow for users to get colours they might want from a light/dark to dark/light mode especially in context of developers where now dark and light mode is almost a need to be supported in their apps.
+                            The application I would like to create is a community application for dog owners and lovers, it will allow for the dog owners/ lovers to chat with other dog owners/lovers through the match & chat function.
+ 
                         <br/><br/>
-                        WHY?
-                        <br/>    <br/>
-                        To Solve issue of user needing to have to search and trial their colours in an inefficient way instead they can get their colours no matter what type of colour code they input ALL JUST IN DUCKMODE.
-                        
+                        Many of us think of ourselves all the time but do we think of the pets they need more recognition too. With this second version of the application, specifically the dogs will have a larger community formed behind them other than their own owners as such more people will not forget about the dogs while also promoting safety measures since
+                        our application dont use location to match.
                         <br/><br/>
-                       
-                        I designed this logo with the idea of trying to express evolution since duck's evolution is similar to colors in different tones starting from Egg to Duck theres a lot of stages in between which also represents the diff color tones it has to get from light to dark and vice versa. 
-                        <br/><br/>
-                        DarkMode was my initial app name but i wanted more branding for this app which is why i made a pun out of it from Dark to Duck which sounds similar.
-                        <br/><br/>
-                        I designed and created this Duck logo myself using Figma.
+                        App logo was designed by myself using photoshop where I just used a gradient as the background from light peach to light pink  and just use a dog sketch I did with a gradient of light pink to dark purple for the dog.
+
+Since my application is targeted towards dog market this icon definitely highlights it is an application related to dogs.
+
+<br/><br/>
+For the launch screen I also added this dog icon but in white since it will complement my app name in white too.
                             </PText>
                         </div>
                      
                     </div>
                     
                     <div className="right">
-                        <img src={DuckMode} alt=""/>
+                        <img src={dogComm} alt=""/>
 
                        
                     </div>
@@ -338,6 +340,97 @@ export default function DuckModeDetails() {
 
 
                 <br/><br/><br/><br/>
+
+
+                <div className="topSect">
+                    <div className="left">
+                        
+                        <p className="aboutSubHead">
+                           <span>Videos</span> 
+                           <br/> <br/>
+                            
+                           
+                        </p>
+                        <h2 className="aboutHeader">
+                            DogComm 2.0 Run through
+                        </h2>
+                    
+                        <br/><br/>
+
+                    
+                        <div className="aboutInfo">
+                            <PText>
+                            The video shows the entire process of how the application flow is from after the users have created a profile for their dogs.
+
+ 
+                        <br/><br/>
+                        There a lot of features not covered in this video too like creating and setting up a user profile but that is 
+                        <br/><br/>
+           
+                            </PText>
+                        </div>
+                     
+                    </div>
+                    
+                    <div className="right" style={{marginLeft:100}}>
+                    <iframe src='https://www.youtube.com/embed/4Jo9Pv6nRZw'
+                        frameborder='0'
+                        allow='autoplay; encrypted-media'
+                        allowfullscreen='true'
+                        title='video'
+                />      
+
+                       
+                    </div>
+
+                </div>
+
+
+               
+
+                <br/><br/>
+                <br/><br/>
+
+
+                <div className="topSect">
+                    <div className="left">
+                        
+                      
+                        <h2 className="aboutHeader">
+                            DogComm 2.0 Matching 
+                        </h2>
+                    
+                        <br/><br/>
+
+                    
+                        <div className="aboutInfo">
+                            <PText>
+                            The video specifically shows the matching function which i have used firebase to store as well match dogs that have requested to friend each other. 
+                            
+ 
+                        <br/><br/>
+                        Only mutual willing pair to make friends will then be able to message the other party throught the chat feature making it safer also since not everyone can message anyone
+                            also that since we use mutual algorithm we wont have to track user's location also potential leaking and endangering user's life.
+                        <br/><br/>
+           
+                            </PText>
+                        </div>
+                     
+                    </div>
+                    
+                    <div className="right" style={{marginLeft:100}}>
+                    <iframe src='https://www.youtube.com/embed/AHr8DSO-G5g'
+                        frameborder='0'
+                        allow='autoplay; encrypted-media'
+                        allowfullscreen='true'
+                        title='video'
+                />    
+                       
+                    </div>
+
+                </div>
+
+              
 
                 <div className="topSect2">
                     <div className="left">
@@ -348,21 +441,14 @@ export default function DuckModeDetails() {
                         <div className="aboutInfo">
                             <PText>
 
-                          
-                            Main color I used throughout my application is white and black which is intended because i want to make the app's theme simplistic.
-                            However for DuckMode's Icon i used a linear gradient background colour with the left side starting from FFDA6F to end of D6AA2C. I used this gradient
-                            due to my own interpretation of an actual Duck's colour.
-                            As for text color I used black and white as the base according to user’s environment setting whether dark or light mode.
+                            Main Color I used throughout my app is mainly light peach to around lighter pink which is the gradient for my app’s branding logo.
                             <br/><br/>
-          
+                            As for the text , or button I choose to different of tones of gray for light mode and dark mode depending on what user is using.
+​                            <br/><br/>
 ​
 ​
-                            As you can see from the first 2 images below of the difference in light and dark mode.
-                            <br/><br/>
-                            For the Sf Symbols i used i added a rgb gradient to represent it giving the rgb code while the hex is just grayish colour.
-
-                            <br/>  <br/>
-                            Lastly, if you noticed there are neumorphic designs added in the input field,button and the sf symbols which basically adds shadows, glow effect to make it have a soft, minimal look
+                            I also used black throughout as my title of each page.
+                            
 
                             </PText>
                         </div>
@@ -370,10 +456,11 @@ export default function DuckModeDetails() {
                     </div>
 
                     <div className="right2">
-                        <img src={DarkMode} alt=""/>
-                        <img src={LightMode} alt=""/>
-                       <img src={SfSymbol} alt=""/>
-                       <img src={Neuro} alt=""/>
+                        <img src={Color} alt=""/>
+                        <img src={BGColor} alt=""/>
+                        
+                        <img src={LaunchScreen} alt=""/>
+
                         
                     </div>
                  
@@ -389,7 +476,7 @@ export default function DuckModeDetails() {
                 <AboutImagesStyles>
 
            
-                <SectTitle heading="Wireframes" subheading="DuckMode's"/>
+                <SectTitle heading="Wireframes" subheading="DogComm's"/>
                 <div className="projAllItem">
                     <Swiper spaceBetween={22} slidesPerView={1} navigation
 
@@ -409,8 +496,8 @@ export default function DuckModeDetails() {
                     }
                   
                     >
-                        {duckModeSS.map((project, index)=>{
-                            if (index >= 7) return;
+                        {DogCommTwoSS.map((project, index)=>{
+                            if (index >= 9) return;
 
                             return(
                                 <SwiperSlide key={project.id}>
@@ -431,42 +518,38 @@ export default function DuckModeDetails() {
 
 
 
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/>
  
-                <SectTitle heading="Conclusion" subheading="DuckMode's"/><br/><br/><br/><br/><br/><br/>
+                <SectTitle heading="Conclusion" subheading="DogComm's"/><br/><br/><br/><br/><br/><br/>
 
                 <div className="topSect">
                     <div className="topLeft">
                    
-                        
+                       
                         <div className="aboutInfo">
                             <PText>
-                                This application was my first attempt on playing around colour codes especially playing with NSColor which is Swift's MacOS & AppKit colour Class. I will say
-                                that this application is more algorithm based since i went for simplistic UI design and focused more on the colour converting algorithm. It was tough at first because
-                                of limited knowledge but after i understood the colour more after 1 week of research and testing.
+                            This might be quite an application to explore since i have previously worked on DogComm 1.0 and wasn't very
+                            satisfied with the outcome of how the application turned out especially because i was using global chat function which
+                            actually defeats the purpose of making a social app. However, i have been trying to find out how and eventually
+                            did it in this version of the application also with the help of Firestore from firebase. This time round, the socialising
+                            is more personal between dog's owner since it is 1-1 as well as giving user's a choice whetehr they want to friend someone
+                            based on each other's dog profiles instead of focusing on other user's look we look at the dog's now.  
 
-                                <br/>      <br/>
+                            <br/><br/>
 
+                            Functionalities like mutual matching is something i have recently started to explore more into socialising applications.
+​
+                            The functionalities are all realtime and real now compared to DogComm 1.0 where i haev to use sample data since i wasn't able to actually do it out in code,
+                            this time round with the help Powerful JavaScript framework Next.Js as well as Tailwind Css i am able to present such a proudful app of
+                            mine.
 
-                                Furthermore, this is my first ever time integrating CloudKit which is Apple's iCloud which
-                                will allow for Apple device users to sync their data between devices as long as they are logged in with same Apple Id
-                                . From the young me that was wondering how such mechanism works until now where i'm able to integrate and use it as my own
-                                application's database, i will say i am quite proud of myself for that. Although i have used Core Data before which is the what the local database of Apple is called
-                                this is however a little different since i will need to merge the different colour datas between devices after each CRD(create,read,delete) operations.
-
-
-
-                                <br/>      <br/>
-
-                                This is such a fruitful experience since i actually learn more than just colour too since its my First MacOs Application. Hope users will like my application since i enjoy
-                                being able to help in little ways like this. Feel free to contact me for any collaboration or feedback, my contact details are below.
-
-
+                            <br/><br/>
+                            Overall this might be the more challenging yet fun application i have made with Firebase, Match, Chat function, Google Auth Function which i didnt have much experience with before.
                             </PText>
                         </div>
                      
                     </div>
-                 
+                  
 
                 </div>
             

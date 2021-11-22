@@ -9,6 +9,7 @@ import RpAppBanner from '../Components/RpAppBanner';
 import SolarEduBanner from '../Components/SolarEduBanner';
 import DogCommBanner from '../Components/DogCommBanner';
 import DuckModeBanner from '../Components/DuckModeBanner';
+import DogCommBannerTwo from '../Components/DogCommBannerTwo';
 
 export default function Home() {
    
@@ -24,6 +25,7 @@ export default function Home() {
             <DogCommBanner/>
             <RpAppBanner/>
             <SolarEduBanner/>
+            <DogCommBannerTwo/>
         
         
             

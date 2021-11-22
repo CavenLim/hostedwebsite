@@ -7,6 +7,7 @@ import DogCommDetails from './pages/DogCommDetails';
 import RpAppDetails from './pages/RpAppDetails';
 import SolarEduDetails from'./pages/SolarEduDetails';
 import DuckModeDetails from'./pages/DuckModeDetails';
+import DogCommTwoDetails from'./pages/DogCommTwoDetails';
 import TaskCowPrivacy from'./pages/TaskCowPrivacy';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -36,6 +37,11 @@ class App extends Component {
           <Route path="/dogcomm">
           <NavBar title="DogComm"/>
             <DogCommDetails />
+           </Route>
+
+           <Route path="/dogcommtwo">
+          <NavBar title="DogComm 2.0"/>
+            <DogCommTwoDetails />
            </Route>
 
           <Route path="/solaredu">
@@ -69,10 +75,20 @@ class App extends Component {
             <DuckModeDetails />
           </Route>
 
+          <Route path="/map">
+   
+
+            
+          </Route>
+
           <Route path="/projects">
           <NavBar/>
            <Projects />
          </Route>
+
+        
+
+
          <Route path="/">
          <NavBar/>
             <Home />
