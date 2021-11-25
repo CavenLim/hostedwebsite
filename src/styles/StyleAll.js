@@ -42,7 +42,8 @@ const AllStyles = createGlobalStyle`
 
   html{
     font-size: 12px;
-    font-family: -apple-system, sans-serif;
+    font-family:inherit;
+    //font-family: -apple-system, sans-serif;
     //font-family: 'Lato', sans-serif;
     background-color: var(--dark-bg);
     

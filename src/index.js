@@ -16,7 +16,7 @@ function CheckOs(){
     return <Typography />;
   }
   else{
-    <TypographyWind />
+    return <TypographyWind />;
   }
 }
 
