@@ -34,7 +34,7 @@ const VoxelDog = () => {
 
             })
             renderer.setPixelRatio(window.devicePixelRatio)
-            renderer.setSize(window.innerWidth*0.85,640);
+            renderer.setSize(window.innerWidth*0.80,640);
             renderer.outputEncoding = THREE.sRGBEncoding
             container.appendChild(renderer.domElement)
             setRenderer(renderer)
