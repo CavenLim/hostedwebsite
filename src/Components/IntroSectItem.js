@@ -16,7 +16,8 @@ text-align: center;
 
 .introItemTitle{
     font-size: 2.5rem;
-    font-family: -apple-system, sans-serif;
+    /* font-family: -apple-system, sans-serif; */
+    font-family:inherit;
 
 }
 

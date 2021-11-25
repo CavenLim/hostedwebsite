@@ -89,7 +89,8 @@ const AboutTaskCowStyles = styled.div`
 
 .projectItemDesc{
     font-size:1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont;
+    /* font-family: -apple-system, BlinkMacSystemFont; */
+    font-family:inherit;
     margin-top: 1rem;
 }
 

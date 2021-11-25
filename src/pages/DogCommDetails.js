@@ -89,7 +89,8 @@ const AboutTaskCowStyles = styled.div`
 
 .projectItemDesc{
     font-size:1.6rem;
-    font-family: -apple-system, sans-serif;
+    font-family:inherit;
+    /* font-family: -apple-system, sans-serif; */
     margin-top: 1rem;
 }
 
