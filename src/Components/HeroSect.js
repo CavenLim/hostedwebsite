@@ -34,7 +34,8 @@ const HeroStyles = styled.div`
     }
     .heroName{
         font-size:7rem;
-        font-family: -apple-system, sans-serif;
+        font-family:inherit;
+        //font-family: -apple-system, sans-serif;
         
   
         color: var(--white);
