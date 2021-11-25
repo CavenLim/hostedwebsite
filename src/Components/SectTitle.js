@@ -5,11 +5,13 @@ const SectionTitleStyles =  styled.div`
 
 text-align: center;
 p{
-    font-family: -apple-system, sans-serif;
+    //font-family: -apple-system, sans-serif;
+    font-family:inherit;
     font-size:2rem;
 }
 h2{
-    font-family: -apple-system, sans-serif;
+    //font-family: -apple-system, sans-serif;
+    font-family:inherit;
     font-size: 5.8rem;
     margin-top:0.5rem;
     text-transform:uppercase;

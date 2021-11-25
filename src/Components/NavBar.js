@@ -34,7 +34,8 @@ const NavBarStyles = styled.div`
             font-size: 2rem;
             color:var(--white);
             font-weight:bolder;
-            font-family: -apple-system, sans-serif;
+            /* font-family: -apple-system, sans-serif; */
+            font-family:inherit;
 
             .titleSpan{
             color: var(--active-navbar);
@@ -78,7 +79,8 @@ const NavBarStyles = styled.div`
         }
         a {
             display: inline-block;
-            font-family: -apple-system, sans-serif;
+            /* font-family: -apple-system, sans-serif; */
+            font-family:inherit;
             font-weight:lighter;
             padding: 1rem 2rem;
             font-size:1.7rem;

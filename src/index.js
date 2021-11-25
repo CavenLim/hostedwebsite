@@ -7,13 +7,26 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
+import TypographyWind from './styles/FontStuffWindow';
+
+
+function CheckOs(){
+  if (navigator.appVersion.indexOf("Mac")!= -1){
+    console.log(navigator.appVersion.indexOf("Mac"));
+    return <Typography />;
+  }
+  else{
+    <TypographyWind />
+  }
+}
 
 ReactDOM.render(
   <React.StrictMode>
    
     <HashRouter>
     <AllStyles />
-    <Typography />
+    {/* <Typography /> */}
+    <CheckOs />
     <App />
     </HashRouter>
    
