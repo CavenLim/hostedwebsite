@@ -12,9 +12,25 @@ import Widgets from '../DesignConceptTaskCow/Widgets.png';
 import Widgets2 from '../DesignConceptTaskCow/Widgets2.png';
 import SetNotifications from '../DesignConceptTaskCow/SetNotifications.png';
 import LaunchScreen from '../DesignConceptTaskCow/LaunchScreen.png';
+import CompletedTaskPage from '../DesignConceptTaskCow/CompletedTaskPage.png';
 
 
 const taskCowSS = [
+    {
+      id: 10,
+      name: "Launch Screen page",
+      desc:
+        'This is what users see whenever the app is launched',
+        img: LaunchScreen,
+    },
+
+    {
+      id: 8,
+      name: "Onboarding Screen",
+      desc:
+        'There is also a feature to show user of new updates in the app whenever they update or first download the app to showcase features available as well to guide user whenever they might be unsure of what TaskCow is capable of.',
+        img: OnBoard,
+    },
     {
       id: 0,
       name: 'Home Page',
@@ -29,6 +45,15 @@ const taskCowSS = [
         "Users see this page when they click add task button on the home page. Allow users to add tasks only for dates that have not passed like on today or after today. Else 'Done'  button will be in disabled mode.",
       img: AddTask
     },
+    {
+      id:11,
+      name: 'View All Task Page',
+      desc:
+        "Users see this page when they click add View Completed tasks button on the drop down menu. Allow users to view all their completed task previously and even add it back with just a different date to be set.",
+      img: CompletedTaskPage
+    },
+
+
     {
       id: 2,
       name: 'Location Feature 1',
@@ -72,13 +97,7 @@ const taskCowSS = [
           'There is a different design for widget when there is no task too.',
           img: Widgets2,
       },
-      {
-        id: 8,
-        name: "Onboarding Screen",
-        desc:
-          'There is also a feature to show user of new updates in the app whenever they update or first download the app to showcase features available as well to guide user whenever they might be unsure of what TaskCow is capable of.',
-          img: OnBoard,
-      },
+     
       {
         id: 9,
         name: "Notifications page",
@@ -86,13 +105,7 @@ const taskCowSS = [
           'Of Course a task application cant do without setting notfications to remind ourselves, be surprised by what reminds you.',
           img: SetNotifications,
       },
-      {
-        id: 10,
-        name: "Launch Screen page",
-        desc:
-          'This is what users see whenever the app is launched',
-          img: LaunchScreen,
-      },
+     
    
   ];
 
