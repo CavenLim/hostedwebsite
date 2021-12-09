@@ -41,6 +41,15 @@ const AboutPageStyles = styled.div`
         }
     }
 
+    .lastUpdatedDate{
+       color:lightslategrey;
+       margin-top: -2.75rem;
+       margin-bottom:2rem;
+      font-weight:lighter;
+     
+      font-size:1rem;
+    }
+
     .aboutHeader{
         font-size: 3.6rem;
         margin-bottom:3rem;
@@ -103,12 +112,17 @@ export default function TaskCowPrivacy() {
                         <p className="aboutSubHead">
                            <span>TaskCow</span>
                         </p>
+                      
                         <h2 className="aboutHeader">
                             taskcow's privacy
+                             
                         </h2>
+                        <p className="lastUpdatedDate"> Last updated: 9th Dec 2021</p>
+
+                     
                         <div className="aboutInfo">
                             <PText>
-                            TaskCow respects the privacy of our users so we store everything locally on each unique devices . I don't collect, use, disclose, or have any access over your information as your personal data within TaskCow is stored locally on your device. Please read this Privacy Policy carefully.  IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS, PURCHASE THE APPLICATION. 
+                            TaskCow respects the privacy of our users so we store everything locally on each unique devices . I don't collect, use, disclose, or have any access over your information as your personal data within TaskCow is stored locally on your device. Please read this Privacy Policy carefully.  IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS, USE THE APPLICATION. 
                         <br/><br/>
                         We reserve the right to make changes to this Privacy Policy at any time and for any reason.  We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.  
  
@@ -124,7 +138,7 @@ export default function TaskCowPrivacy() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            We have a child friendly application so any ages are welcomed to use our application however purchases from children under 12 will require parental guidance.
+                            We have a child friendly application so any ages are welcomed to use our application however purchases such as in app purchases from children under 12 will require parental guidance.
                         <br/><br/>
                         
                             </PText>
@@ -135,7 +149,7 @@ export default function TaskCowPrivacy() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            We don't store user's location but we store the location keyword or postal code that they added together with Tasks in local storage as for the searching nearby location we won't store any user's current location since we will be using device's location to search for nearby stores according to keyword user enters. User can disable our application to access their device's location in settings and also to disable precise location to be used. This way no User's location will be stored since we don't even store it.
+                            We don't store user's location but we store the location keyword or postal code that they added together with Tasks in local storage as for the searching nearby location we won't store any user's current location since we will be using device's location to search for nearby stores according to keyword user enters. User can disable our application's access to their device's location in their device's settings and also to disable precise location to be used. This way no User's location will be stored since we don't even store it.
 
 
                             <br/><br/>
@@ -154,12 +168,14 @@ export default function TaskCowPrivacy() {
                         </p>
                         <div className="aboutInfo">
                             <PText>
-                            You may at any time review or change or refund your purchase by:​
+                            You may not review or change or refund your in app purchases due to reasons stated below:​
                             <br/><br/>
-                             -  Requesting for refund at App Store
-
-                        <br/><br/>
-                        Upon your request to refund your purchase, TaskCow updates will no longer be available for you. 
+                             -  TaskCow is a free app 
+                             <br/>
+                             -  Donation is solely up to user's choice to support the developer 
+                             <br/>
+                             -  Having In App Purchase does not provide user better experience or more features.
+                    
                         
                             </PText>
                         </div>

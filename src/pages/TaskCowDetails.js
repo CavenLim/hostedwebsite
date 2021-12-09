@@ -401,7 +401,7 @@ export default function TaskCowDetails() {
                   
                     >
                         {taskCowSS.map((project, index)=>{
-                            if (index >= 10) return;
+                            if (index >= 12) return;
 
                             return(
                                 <SwiperSlide key={project.id}>
