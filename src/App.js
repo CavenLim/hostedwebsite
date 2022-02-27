@@ -76,23 +76,23 @@ class App extends Component {
             <DuckModeDetails />
           </Route>
 
-          {/* *handle non exisitng pages* */}
-          <Route component={ErrorFallbackPage}>
-   
-          </Route>
+         
 
           <Route path="/projects">
           <NavBar/>
            <Projects />
          </Route>
 
-        
-
 
          <Route path="/">
          <NavBar/>
             <Home />
            </Route>
+
+            {/* *handle non exisitng pages* */}
+          <Route component={ErrorFallbackPage}>
+   
+          </Route>
 
          
 
