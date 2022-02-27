@@ -30,65 +30,65 @@ class App extends Component {
            <div>
         
         <Switch>
-         <Route path="/about">
+         <Route exact path="/about">
          <NavBar/>
              <About />
           </Route>
 
-          <Route path="/dogcomm">
+          <Route exact path="/dogcomm">
           <NavBar title="DogComm"/>
             <DogCommDetails />
            </Route>
 
-           <Route path="/dogcommtwo">
+           <Route exact path="/dogcommtwo">
           <NavBar title="DogComm 2.0"/>
             <DogCommTwoDetails />
            </Route>
 
-          <Route path="/solaredu">
+          <Route exact path="/solaredu">
           <NavBar title="SolarEdu"/>
            <SolarEduDetails />
           </Route>
 
-          <Route path= "/taskcowprivacy">
+          <Route exact path= "/taskcowprivacy">
           <NavBar title="TaskCow"/>
             <TaskCowPrivacy />
           </Route>
 
-          <Route path= "/duckmodeprivacy">
+          <Route exact path= "/duckmodeprivacy">
           <NavBar title="DuckMode"/>
             <DuckModePrivacy />
           </Route>
 
-          <Route path="/rpapp">
+          <Route exact path="/rpapp">
           <NavBar title="RpApp"/>
             <RpAppDetails />
           </Route>
 
-         <Route path="/taskcow">
+         <Route exact path="/taskcow">
          <NavBar title="TaskCow"/>
             <TaskCowDetails />
           </Route>
          
 
-          <Route path="/duckmode">
+          <Route exact path="/duckmode">
           <NavBar title="DuckMode"/>
             <DuckModeDetails />
           </Route>
 
-          <Route path="/projects">
+          <Route exact path="/projects">
           <NavBar/>
            <Projects />
          </Route>
 
 
-         <Route path="/home">
+         <Route exact path="/home">
          <NavBar/>
             <Home />
            </Route>
 
-           <Route path="/" render={() => (<Redirect to="/home" />)}>
-         <NavBar/>
+           <Route exact path="/" render={() => (<Redirect to="/home" />)}>
+            <NavBar/>
             <Home />
            </Route>
 
@@ -99,15 +99,6 @@ class App extends Component {
           </Route>
          
 
-         
-
-        
-         
-
-
-         
-
-         
 
          </Switch>
         <Footer />
