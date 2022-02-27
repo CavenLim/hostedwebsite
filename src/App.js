@@ -14,7 +14,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 
 import Footer from './Components/Footer';
-import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, BrowserRouter as Router, Route, Switch ,Redirect} from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 import { Component,useState } from 'react';
 import DuckModePrivacy from './pages/DuckModePrivacy';
@@ -76,6 +76,9 @@ class App extends Component {
             <DuckModeDetails />
           </Route>
 
+          <Route component={ErrorFallbackPage}>
+   
+          </Route>
          
 
           <Route path="/projects">
@@ -83,13 +86,17 @@ class App extends Component {
            <Projects />
          </Route>
 
+
+         <Route path="/home">
+         <NavBar/>
+            <Home />
+           </Route>
+
          {/* *handle non exisitng pages* */}
-         <Route component={ErrorFallbackPage}>
-   
-        </Route>
+         
 
 
-         <Route path="/">
+         <Route path="/" render={() => (<Redirect to="/home" />)}>
          <NavBar/>
             <Home />
            </Route>
