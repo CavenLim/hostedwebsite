@@ -83,16 +83,16 @@ class App extends Component {
            <Projects />
          </Route>
 
+         {/* *handle non exisitng pages* */}
+         <Route component={ErrorFallbackPage}>
+   
+        </Route>
+
 
          <Route path="/">
          <NavBar/>
             <Home />
            </Route>
-
-            {/* *handle non exisitng pages* */}
-          <Route component={ErrorFallbackPage}>
-   
-          </Route>
 
          
 
