@@ -9,6 +9,7 @@ import SolarEduDetails from'./pages/SolarEduDetails';
 import DuckModeDetails from'./pages/DuckModeDetails';
 import DogCommTwoDetails from'./pages/DogCommTwoDetails';
 import TaskCowPrivacy from'./pages/TaskCowPrivacy';
+import ErrorFallbackPage from './pages/404Page';
 import About from './pages/About';
 import Projects from './pages/Projects';
 
@@ -75,9 +76,9 @@ class App extends Component {
             <DuckModeDetails />
           </Route>
 
-          <Route path="/map">
+          <Route path="/404">
    
-
+          <ErrorFallbackPage />
             
           </Route>
 
