@@ -4,6 +4,7 @@ import Button from '../Components/Button';
 import placeholder3 from'../assets/Images/placeholder3.jpg'
 import topTaskCow from '../assets/Images/topTaskCow.png';
 import topDuckMode from '../assets/Images/DuckModeTop.png';
+import SSCImage from '../assets/Images/SSCImage.jpg';
 import styled from 'styled-components';
 import AboutInfoItem from '../Components/AboutInfoItem';
 import SectTitle from '../Components/SectTitle'
@@ -12,11 +13,17 @@ import designs from '../assets/data/designs';
 import AboutDesigns from '../Components/AboutDesigns';
 import SwiperCore , {Navigation} from 'swiper';
 import {SiSwift,SiHtml5,SiCss3,SiJavascript,SiPhp,SiPython,SiAdobexd,SiFigma,SiAdobephotoshop} from 'react-icons/si';
-
+import { Link } from "react-router-dom";
+import { Center } from '@chakra-ui/react';
 
 SwiperCore.use([Navigation])
 
-
+const linkStyle = {
+    
+    textDecoration: "underline",
+    
+   
+  };
 
 
 const AboutImagesStyles = styled.div`
@@ -88,6 +95,7 @@ const AboutPageStyles = styled.div`
 
     .topLeft{
         flex:3
+       
     }
     .topRight{
         flex:3
@@ -105,6 +113,7 @@ const AboutPageStyles = styled.div`
     .aboutHeader{
         font-size: 3.6rem;
         margin-bottom:3rem;
+        
     }
     .aboutInfo{
         margin-bottom: 4rem;
@@ -141,6 +150,10 @@ const AboutPageStyles = styled.div`
         .aboutHeader{
             font-size: 3rem;
         }
+    }
+
+    .underlined{
+        text-decoration: underline;
     }
 
 
@@ -269,6 +282,35 @@ export default function About() {
  
                 <SectTitle heading="Achievements" subheading="some of my "/><br/><br/><br/><br/><br/><br/>
 
+
+                <div className="topSect">
+                    <div className="topLeft">
+                    <img src={SSCImage} alt=""/>
+                       
+                     
+                    </div>
+                    <div className="topRight">
+                    
+
+                        <h2 className="aboutHeader">
+                            Swift Students Challenge
+                        </h2>
+                       
+                        <div className="aboutInfo">
+                            <PText>
+                                I decided to join 2022 Swift Students Challenge, and is honoured to be 1 of the 7 winners in Singapore.
+                                <br/>
+                             <Link to ="/ssc2022" style ={linkStyle}> Find Out More </Link> 
+                            </PText>
+                        </div>
+                    </div>
+
+                </div>
+
+                <br/>  <br/>  <br/>
+                <br/>  <br/>  <br/>
+
+
                 <div className="topSect">
                     <div className="topLeft">
                    
@@ -310,7 +352,10 @@ export default function About() {
                     </div>
 
                 </div>
-            
+               
+                        
+
+                
 
             </div>
         </AboutPageStyles>

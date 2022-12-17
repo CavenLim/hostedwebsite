@@ -12,6 +12,7 @@ import TaskCowPrivacy from'./pages/TaskCowPrivacy';
 import ErrorFallbackPage from './pages/404Page';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import SSCPage from './pages/SSCPage';
 
 import Footer from './Components/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch ,Redirect} from 'react-router-dom';
@@ -79,6 +80,11 @@ class App extends Component {
           <Route exact path="/projects">
           <NavBar/>
            <Projects />
+         </Route>
+
+         <Route exact path="/ssc2022">
+          <NavBar/>
+           <SSCPage />
          </Route>
 
 
