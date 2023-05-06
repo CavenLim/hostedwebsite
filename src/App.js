@@ -9,6 +9,7 @@ import SolarEduDetails from'./pages/SolarEduDetails';
 import DuckModeDetails from'./pages/DuckModeDetails';
 import DogCommTwoDetails from'./pages/DogCommTwoDetails';
 import TaskCowPrivacy from'./pages/TaskCowPrivacy';
+import TaccedPrivacy from'./pages/TaccedPrivacy';
 import ErrorFallbackPage from './pages/404Page';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -59,6 +60,11 @@ class App extends Component {
           <Route exact path= "/duckmodeprivacy">
           <NavBar title="DuckMode"/>
             <DuckModePrivacy />
+          </Route>
+
+          <Route exact path= "/taccedprivacy">
+          <NavBar title="Tacced"/>
+            <TaccedPrivacy />
           </Route>
 
           <Route exact path="/rpapp">
