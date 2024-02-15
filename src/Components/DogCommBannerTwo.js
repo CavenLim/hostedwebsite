@@ -213,7 +213,7 @@ export default function DogCommBannerTwo() {
       
                    <Marginer direction="vertical" margin="1em"/>
                     <SloganContainer>
-                        <SloganTitle>DogComm 2.0</SloganTitle>
+                        <SloganTitle>DogComm</SloganTitle>
                         <Slogan>
                             Gather all the dog lovers/owners
                         </Slogan>
