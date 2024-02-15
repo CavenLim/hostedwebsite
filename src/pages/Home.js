@@ -22,7 +22,6 @@ export default function Home() {
             <ProjectSect/>
             <DuckModeBanner/>
             <TaskCowBanner/>
-            <DogCommBanner/>
             <RpAppBanner/>
             <SolarEduBanner/>
             <DogCommBannerTwo/>
