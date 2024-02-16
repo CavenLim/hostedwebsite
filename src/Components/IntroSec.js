@@ -49,9 +49,9 @@ export default function IntroSec() {
             />
             <IntroSectItem icon ={<MdComputer/>}  title="Back End Development" desc="I also enjoy being able to code my own back end/server side code since
             i can have full control and will be able to allow my application to work the way i code it to be, i'm not just a front end dev but also back end dev since
-            my interest is in these."/>
+            my interest is in these areas too."/>
             <IntroSectItem icon = {<SiApple/>} title="IOS App Development" desc="Another language i will always use is Swift with the SwiftUi framework since i enjoy
-            having as much control to my own storyboard then to use drag and drop which is very constraining and limiting to the app's user interface."/>
+            having the ability to code out my own app's user interface than to use drag and drop which is usually very constraining and limiting to the app's user interface."/>
             </div>
            </div>
             

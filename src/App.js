@@ -37,13 +37,9 @@ class App extends Component {
              <About />
           </Route>
 
-          <Route exact path="/dogcomm">
-          <NavBar title="DogComm"/>
-            <DogCommDetails />
-           </Route>
 
            <Route exact path="/dogcommtwo">
-          <NavBar title="DogComm 2.0"/>
+          <NavBar title="DogComm"/>
             <DogCommTwoDetails />
            </Route>
 
@@ -126,52 +122,5 @@ class App extends Component {
   }
 }
 
-// function App() {
-//   return (
-//     <div>
-//       <Router>
-//         <NavBar />
-//         <Switch>
-//           <Route path={process.env.PUBLIC_URL+"/about"}>
-//             <About />
-//           </Route>
-
-//           <Route path={process.env.PUBLIC_URL+ "/dogcomm"}>
-//             <DogCommDetails />
-//           </Route>
-
-//           <Route path={process.env.PUBLIC_URL+ "/solaredu"}>
-//             <SolarEduDetails />
-//           </Route>
-
-//           <Route path={process.env.PUBLIC_URL+ "/taskcowprivacy"}>
-//             <TaskCowPrivacy />
-//           </Route>
-
-//           <Route path={process.env.PUBLIC_URL+"/rpapp"}>
-//             <RpAppDetails />
-//           </Route>
-
-//           <Route path={process.env.PUBLIC_URL+"/taskcow"}>
-//             <TaskCowDetails />
-//           </Route>
-
-//           <Route path={process.env.PUBLIC_URL+"/projects"}>
-//             <Projects />
-//           </Route>
-//           <Route path={process.env.PUBLIC_URL+"/"}>
-//             <Home />
-//           </Route>
-
-         
-
-//         </Switch>
-//         <Footer />
-
-//       </Router>
-
-//     </div>
-//   );
-// }
 
 export default App;
