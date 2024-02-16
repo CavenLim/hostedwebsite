@@ -78,7 +78,7 @@ export default function Footer() {
                         
                     </h1>
                     <PText>
-                    A student from Singapore pursuing my study in field of Mobile Software Development & Software Engineering. I am also very interested in UI design/UX design, keen of becoming a software developer in future.
+                    A student from Singapore pursuing my study in field of Software Development. I am also very interested in UI design/UX design, keen of becoming a software developer in future.
                     </PText>
                 </div>
                 <div className="footerCol2">

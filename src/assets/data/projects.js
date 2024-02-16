@@ -25,30 +25,23 @@ const projects = [
     },
     {
       id: 3,
-      name: 'DogComm',
-      desc:
-        'An app to help gather the dog community which include dog lovers/owners.',
-      img: dogComm,
-    },
-    {
-      id: 4,
       name: 'RpApp',
       desc:
         "This is a prototype application that i did as a project to help combine my school's portal for the benefits of students like myself into a mobile application.",
       img: RpApp,
     },
     {
-      id: 5,
+      id: 4,
       name: "SolarEdu",
       desc:
         'A prototype application where users like aspiring astronomers can learn about the different planets in our solar system as well as test their understandings of the planets.',
       img: SolarEdu,
     },
     {
-      id: 6,
-      name: "DogCommTwo",
+      id: 5,
+      name: "DogComm",
       desc:
-        'A further improvement and enhanced existing DogComm application, to allow real time friends matching between each dogs.',
+        "An app to help gather the dog community which include dog lovers/owners, to allow real time friends matching between each dog's owner through their dogs.",
       img: dogComm,
     },
    

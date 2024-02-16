@@ -109,9 +109,9 @@ export default function AboutSect() {
                     />
                     <PText>
                     I am a student from Singapore  
-                    studying Mobile Software Development. 
-                    I am very interested in UI design/UX design, also keen of becoming a software developer. I
-                    love designing since i am able to show my creative side.
+                    pursuing the path of Software Development. 
+                    I am very interested in UI design/UX design, also keen of becoming a software developer in future. I
+                    love to design user interfaces as well as random icons, backdrops.
                     </PText>
 
                     

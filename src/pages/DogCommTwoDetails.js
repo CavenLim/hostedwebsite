@@ -398,7 +398,7 @@ For the launch screen I also added this dog icon but in white since it will comp
                         
                       
                         <h2 className="aboutHeader">
-                            DogComm 2.0 Matching 
+                            DogComm Matching 
                         </h2>
                     
                         <br/><br/>
@@ -529,7 +529,7 @@ For the launch screen I also added this dog icon but in white since it will comp
                        
                         <div className="aboutInfo">
                             <PText>
-                            This might be quite an application to explore since i have previously worked on DogComm 1.0 and wasn't very
+                            This might be quite an application to explore since i have previously worked on DogComm 0.1 and wasn't very
                             satisfied with the outcome of how the application turned out especially because i was using global chat function which
                             actually defeats the purpose of making a social app. However, i have been trying to find out how and eventually
                             did it in this version of the application also with the help of Firestore from firebase. This time round, the socialising
