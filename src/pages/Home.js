@@ -17,7 +17,7 @@ export default function Home() {
 
         <div>
             <HeroSect/>
-            <AboutSect/>
+            {/* <AboutSect/> */}
             <IntroSec/> 
             <ProjectSect/>
             <DuckModeBanner/>

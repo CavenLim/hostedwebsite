@@ -112,11 +112,7 @@ export default function HeroSect() {
                     <img src={Cow} alt =""/>
                 </div> */}
                 <div className="heroInfo">
-                    <PText>I am a front end and backend developer
-                        currently still pursuing my diploma in
-                        Mobile Software Development. I love to design
-                        User interface that will caught user's attention
-                        on first sight.
+                    <PText>Software Developer from Singapore
                     
                     </PText>
                   
