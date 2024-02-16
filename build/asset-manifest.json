@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.8bd16051.chunk.js",
-    "main.js.map": "/static/js/main.8bd16051.chunk.js.map",
+    "main.js": "/static/js/main.e3428782.chunk.js",
+    "main.js.map": "/static/js/main.e3428782.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72048294.js",
     "runtime-main.js.map": "/static/js/runtime-main.72048294.js.map",
     "static/css/2.43289133.chunk.css": "/static/css/2.43289133.chunk.css",
@@ -82,6 +82,7 @@
     "static/media/SkyMounts.36c97cf8.png": "/static/media/SkyMounts.36c97cf8.png",
     "static/media/SolarEdu.d7f7b55a.png": "/static/media/SolarEdu.d7f7b55a.png",
     "static/media/SolarEdu2.194c5063.png": "/static/media/SolarEdu2.194c5063.png",
+    "static/media/TaccedAppIcon.0a767200.png": "/static/media/TaccedAppIcon.0a767200.png",
     "static/media/TaskCow.39abf8be.png": "/static/media/TaskCow.39abf8be.png",
     "static/media/TaskCow2.3742b83b.png": "/static/media/TaskCow2.3742b83b.png",
     "static/media/TonesPage.cf05d818.png": "/static/media/TonesPage.cf05d818.png",
@@ -109,6 +110,6 @@
     "static/js/runtime-main.72048294.js",
     "static/css/2.43289133.chunk.css",
     "static/js/2.3831ff64.chunk.js",
-    "static/js/main.8bd16051.chunk.js"
+    "static/js/main.e3428782.chunk.js"
   ]
 }

@@ -133,7 +133,7 @@ export default function Footer() {
             <div className="copyright">
                 <div className="container">
                     <PText>
-                    © 2021 - Caven Lim. Designed by Caven
+                    © 2024 - Caven Lim. Designed by Caven
                     </PText>
                 </div>
             </div>

@@ -306,7 +306,7 @@ export default function DogCommTwoDetails() {
                            
                         </p>
                         <h2 className="aboutHeader">
-                            DogComm 2.0
+                            DogComm
                         </h2>
                     
                         <br/><br/>
@@ -353,7 +353,7 @@ For the launch screen I also added this dog icon but in white since it will comp
                            
                         </p>
                         <h2 className="aboutHeader">
-                            DogComm 2.0 Run through
+                            DogComm run through
                         </h2>
                     
                         <br/><br/>
