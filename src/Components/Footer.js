@@ -109,8 +109,8 @@ export default function Footer() {
                 <FooterCol heading="Contact Info" links={
                         [
                             {
-                                title:"cavenlim03@gmail.com",
-                                path:"mailto:cavenlim03@gmail.com",
+                                title:"Email",
+                                path:"mailto:caven@cavenlim.com",
                                
                             },
                             {

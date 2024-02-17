@@ -86,8 +86,9 @@ const ContentContainer = styled.div`
         display: flex;
         flex-direction: column;
         gap:0rem;
-        margin-left:0px ;
+        margin-left:5rem ;
         margin-top:-5rem;
+        
    
     }
 
