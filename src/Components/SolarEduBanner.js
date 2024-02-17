@@ -78,11 +78,7 @@ const ContentContainer = styled.div`
         margin-left:5rem ;
         margin-top:-5rem;
     }
-    @media only screen and (max-width:400px){
-
-        margin-left:-45rem;
-
-    }  
+   
 
 `;
 const SloganContainer = styled.div`
@@ -94,7 +90,7 @@ const SloganContainer = styled.div`
     white-space: nowrap;
     @media only screen and (max-width:400px){
         max-width: 280px;
-   
+        margin-left:-45rem;
     }
 `;
 
