@@ -88,6 +88,11 @@ const SloganContainer = styled.div`
     width: 100%;
     max-width: 500px; /* Adjust the maximum width as needed */
     white-space: nowrap;
+
+    @media only screen and (max-width:400px){
+        max-width: 280px;
+   
+    }
 `;
 
 
@@ -177,7 +182,7 @@ const ImageApp = styled.div`
         object-fit: contain;
     }
 
-    @media only screen and (max-width:1450px){
+    @media only screen and (max-width:1500px){
    
         
         margin-left:450px;

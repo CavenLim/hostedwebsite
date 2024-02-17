@@ -87,6 +87,10 @@ const SloganContainer = styled.div`
     width: 100%;
     max-width: 500px; /* Adjust the maximum width as needed */
     white-space: nowrap;
+    @media only screen and (max-width:400px){
+        max-width: 280px;
+   
+    }
 `;
 
 const Slogan = styled.h2`
@@ -173,7 +177,7 @@ const ImageApp = styled.div`
     }
 
 
-    @media only screen and (max-width:1450px){
+    @media only screen and (min-width:1500px){
    
         
         margin-left:450px;
