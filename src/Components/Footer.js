@@ -118,7 +118,11 @@ export default function Footer() {
                                 path:" https://github.com/CavenLim",
                                
                             },
-
+                            {
+                                title:"App Store",
+                                path:"https://apps.apple.com/us/developer/caven-lim/id1565165369",
+                               
+                            },
                            
                            
                           
