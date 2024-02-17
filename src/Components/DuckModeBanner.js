@@ -79,13 +79,15 @@ const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-left:200px;
     gap:5rem;
 
     @media only screen and (max-width:760px){
         display: flex;
         flex-direction: column;
         gap:0rem;
+        margin-left:0px ;
+        margin-top:-5rem;
    
     }
 
@@ -93,7 +95,10 @@ const ContentContainer = styled.div`
 const SloganContainer = styled.div`
     display: flex;
     flex-direction:column;
-
+     
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    white-space: nowrap;
 `;
 
 const Slogan = styled.h2`
@@ -173,7 +178,7 @@ const ImageApp = styled.div`
 
     width: 20em;
     height: 19em;
-
+    margin-left:300px;
     img{
         object-fit: contain;
         width: 100%;
@@ -184,10 +189,10 @@ const ImageApp = styled.div`
    
         
         float:top;
-        margin-top: 5rem;
-        width: 5em;
-        height: 4.5em;
-        
+        margin: -21rem;
+        width: 9em;
+        height: 8.5em;
+        margin-left:-55rem;
    
     }
 
@@ -221,11 +226,9 @@ export default function DuckModeBanner() {
                     <SloganContainer>
                         <SloganTitle>DuckMode</SloganTitle>
                         <Slogan>
-                            Find your desired colours with
+                            Find & Discover your desired colours with DuckMode
                         </Slogan>
-                        <Slogan>
-                            DuckMode
-                        </Slogan>
+                      
                         <Slogan>
                             as you design or code etc..
                         </Slogan>

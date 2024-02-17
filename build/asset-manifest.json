@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23883dd6.css",
-    "main.js": "/static/js/main.f27ec54b.js",
+    "main.js": "/static/js/main.3eacc5db.js",
     "static/media/IconsAll.png": "/static/media/IconsAll.a6420137399fafa28786.png",
     "static/media/HomePage.png": "/static/media/HomePage.7b7be06a7f1f9e04ae1e.png",
     "static/media/LightMode.png": "/static/media/LightMode.a562c389b2d06788621c.png",
@@ -33,6 +33,7 @@
     "static/media/ImageInfo.png": "/static/media/ImageInfo.1493e3442b9ea775106e.png",
     "static/media/InitialChatList.png": "/static/media/InitialChatList.01b6fb3c0670188a96bd.png",
     "static/media/TaskCow.png": "/static/media/TaskCow.39abf8bef8ac229c4f4c.png",
+    "static/media/RpApp.jpg": "/static/media/RpApp.b2b2b36c0c6040548902.jpg",
     "static/media/InfoExpanded.png": "/static/media/InfoExpanded.78be1c96210fca615d0b.png",
     "static/media/DuckModeIcon.png": "/static/media/DuckModeIcon.24c7836e69b18979644a.png",
     "static/media/ProfileScreen.png": "/static/media/ProfileScreen.4ab365c2a10e0186df89.png",
@@ -89,15 +90,14 @@
     "static/media/SolarEdu2.png": "/static/media/SolarEdu2.194c50633e9a2d1b711a.png",
     "static/media/SfSymbols.png": "/static/media/SfSymbols.d62b9513df249e75ec95.png",
     "static/media/ColorAccent.png": "/static/media/ColorAccent.27c6eb1808c82161e40e.png",
-    "static/media/RpApp.jpg": "/static/media/RpApp.ab56b56386b50d482edf.jpg",
     "static/media/calendar.jpg": "/static/media/calendar.150d798c2a7b89ceef90.jpg",
     "static/media/Color.jpeg": "/static/media/Color.3ae8f66df77cca7e1a3f.jpeg",
     "index.html": "/index.html",
     "main.23883dd6.css.map": "/static/css/main.23883dd6.css.map",
-    "main.f27ec54b.js.map": "/static/js/main.f27ec54b.js.map"
+    "main.3eacc5db.js.map": "/static/js/main.3eacc5db.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.f27ec54b.js"
+    "static/js/main.3eacc5db.js"
   ]
 }

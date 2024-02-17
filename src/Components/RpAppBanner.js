@@ -69,21 +69,25 @@ const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-left:200px;
     gap:5rem;
 
     @media only screen and (max-width:760px){
         display: flex;
         flex-direction: column;
         gap:0rem;
-   
+        margin-left:0px;
+        margin-top:-5rem;
     }
 
 `;
 const SloganContainer = styled.div`
     display: flex;
     flex-direction:column;
-
+       
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    white-space: nowrap;
 `;
 
 const Slogan = styled.h2`
@@ -163,7 +167,7 @@ const ImageApp = styled.div`
 
     width: 21em;
     height: 20em;
-
+    margin-left:300px;
     img{
         width: 100%;
         height: 100%;
@@ -173,9 +177,10 @@ const ImageApp = styled.div`
    
         
         float:top;
-        margin-top: 5rem;
-        width: 5em;
-        height: 4.5em;
+        margin: -21rem;
+        width: 9em;
+        height: 8.5em;
+        margin-left:-55rem;
         
    
     }
@@ -210,11 +215,9 @@ export default function RpAppBanner() {
                     <SloganContainer>
                         <SloganTitle>Rp App</SloganTitle>
                         <Slogan>
-                            The reliance of school web portals
+                            The reliance of school web portals is now gone and solved
                         </Slogan>
-                        <Slogan>
-                            is now gone and solved
-                        </Slogan>
+                        
                         <Slogan>
                             as you get access to all in this app!
                         </Slogan>

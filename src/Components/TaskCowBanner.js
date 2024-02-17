@@ -79,30 +79,33 @@ const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-left:200px;
     gap:5rem;
 
     @media only screen and (max-width:760px){
         display: flex;
         flex-direction: column;
         gap:0rem;
-   
+        margin-left:0px;
+        margin-top:-5rem;
     }
 
 `;
 const SloganContainer = styled.div`
     display: flex;
     flex-direction:column;
-
+    
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    white-space: nowrap;
 `;
 
 const Slogan = styled.h2`
     margin: 0 ;
- 
     font-size:20px;
     color:  white;
     font-weight: 450;
-
+   
     @media only screen and (max-width:760px){
         font-size:14px;
    
@@ -173,21 +176,22 @@ const ImageApp = styled.div`
 
     width: 20em;
     height: 19em;
-
+    margin-left:300px;
     img{
         width: 100%;
-        height: 100%;
+        height: 100%;   
+       
     }
 
     @media only screen and (max-width:760px){
    
         
         float:top;
-        margin-top: 5rem;
-        width: 5em;
-        height: 4.5em;
+        margin: -21rem;
+        width: 9em;
+        height: 8.5em;
+        margin-left:-55rem;
         
-   
     }
 
 `
@@ -220,11 +224,9 @@ export default function TaskCowBanner() {
                     <SloganContainer>
                         <SloganTitle>TaskCow</SloganTitle>
                         <Slogan>
-                            Let your productivity go up with TaskCow
+                            Let your productivity go up with TaskCow  and your Home Screen
                         </Slogan>
-                        <Slogan>
-                            and your Home Screen
-                        </Slogan>
+                        
                         <Slogan>
                             as you get reminded of tasks you set!
                         </Slogan>

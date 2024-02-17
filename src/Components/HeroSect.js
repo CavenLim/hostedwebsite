@@ -80,6 +80,10 @@ const HeroStyles = styled.div`
                 }
           
         }
+        .heroInfo{
+            margin-top:5rem;
+
+         }
        
         
     } 
