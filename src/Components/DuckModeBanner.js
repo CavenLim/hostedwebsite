@@ -91,6 +91,11 @@ const ContentContainer = styled.div`
         
    
     }
+    @media only screen and (max-width:400px){
+
+    margin-left:-45rem;
+
+    }  
 
 `;
 const SloganContainer = styled.div`
@@ -192,7 +197,7 @@ const ImageApp = styled.div`
     @media only screen and (min-width:1500px){
    
         
-        margin-left:450px;
+        margin-left:500px;
 
 
     }
