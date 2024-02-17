@@ -185,6 +185,13 @@ const ImageApp = styled.div`
         width: 100%;
         height: 100%;
     }
+    @media only screen and (max-width:1450px){
+   
+        
+        margin-left:450px;
+
+
+    }
 
     @media only screen and (max-width:760px){
    
@@ -193,8 +200,13 @@ const ImageApp = styled.div`
         margin: -21rem;
         width: 9em;
         height: 8.5em;
-        margin-left:-50rem;
+        margin-left:-55rem;
    
+    }
+    @media only screen and (max-width:400px){
+
+        margin-left:-45rem;
+
     }
 
 `
