@@ -190,7 +190,7 @@ const ImageApp = styled.div`
         margin: -21rem;
         width: 9em;
         height: 8.5em;
-        margin-left:-55rem;
+        margin-left:-50rem;
         
     }
 
