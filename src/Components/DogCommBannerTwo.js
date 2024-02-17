@@ -92,7 +92,7 @@ const SloganContainer = styled.div`
 
     @media only screen and (max-width:400px){
         max-width: 280px;
-        margin-left:-45rem;
+        margin-left:3rem;
     }
 `;
 
