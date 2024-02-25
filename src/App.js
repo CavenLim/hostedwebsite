@@ -38,7 +38,7 @@ class App extends Component {
           </Route>
 
 
-           <Route exact path="/dogcommtwo">
+           <Route exact path="/dogcomm">
           <NavBar title="DogComm"/>
             <DogCommTwoDetails />
            </Route>
