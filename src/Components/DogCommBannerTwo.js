@@ -251,7 +251,7 @@ export default function DogCommBannerTwo() {
                     </SloganContainer>
                     <Marginer direction="vertical" margin={20}/>
                     <ButtonsDivStyle className="Buttons">
-                    <BtnGo id="bt2" onClick={() => onClick2('/#/dogcommtwo')}outline={false}><FaArrowRight/></BtnGo>
+                    <BtnGo id="bt2" onClick={() => onClick2('/#/dogcomm')}outline={false}><FaArrowRight/></BtnGo>
                     </ButtonsDivStyle>
                     
                 </SloganContainer>
