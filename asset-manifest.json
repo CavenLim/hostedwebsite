@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23883dd6.css",
-    "main.js": "/static/js/main.881343c7.js",
+    "main.js": "/static/js/main.e2115418.js",
     "static/media/IconsAll.png": "/static/media/IconsAll.a6420137399fafa28786.png",
     "static/media/HomePage.png": "/static/media/HomePage.7b7be06a7f1f9e04ae1e.png",
     "static/media/LightMode.png": "/static/media/LightMode.a562c389b2d06788621c.png",
@@ -90,14 +90,15 @@
     "static/media/SolarEdu2.png": "/static/media/SolarEdu2.194c50633e9a2d1b711a.png",
     "static/media/SfSymbols.png": "/static/media/SfSymbols.d62b9513df249e75ec95.png",
     "static/media/ColorAccent.png": "/static/media/ColorAccent.27c6eb1808c82161e40e.png",
+    "static/media/FilmishIcon.png": "/static/media/FilmishIcon.1720d790c0f76a097fad.png",
     "static/media/calendar.jpg": "/static/media/calendar.150d798c2a7b89ceef90.jpg",
     "static/media/Color.jpeg": "/static/media/Color.3ae8f66df77cca7e1a3f.jpeg",
     "index.html": "/index.html",
     "main.23883dd6.css.map": "/static/css/main.23883dd6.css.map",
-    "main.881343c7.js.map": "/static/js/main.881343c7.js.map"
+    "main.e2115418.js.map": "/static/js/main.e2115418.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.881343c7.js"
+    "static/js/main.e2115418.js"
   ]
 }
