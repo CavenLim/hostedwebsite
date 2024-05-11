@@ -122,7 +122,7 @@ export default function FilmishPrivacy() {
                      
                         <div className="aboutInfo">
                             <PText>
-                            Filmish respects the privacy of our users so we store everything locally on each unique devices . I don't collect, use, disclose, or have any access over your information as your personal data within Filmish is stored locally on your device. Please read this Privacy Policy carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS, USE THE APPLICATION. 
+                            Filmish respects the privacy of our users so we store everything locally on each unique devices . I don't collect, use, disclose, or have any access over your information as your personal data within Filmish is stored locally on your device. Please read this Privacy Policy carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT BUY, USE THE APPLICATION. 
                         <br/><br/>
                         We reserve the right to make changes to this Privacy Policy at any time and for any reason.  We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.  
  
@@ -154,9 +154,10 @@ export default function FilmishPrivacy() {
                             <PText>
                             In any case of disparity should you to choose to refund your app we respect tour decision, you can do so by visiting:
                             <br/><br/>
-                             -  https://reportaproblem.apple.com 
+                             -  <a>https://reportaproblem.apple.com</a>
                              <br/>
-                             -  Contact me @caven.cavenlim.com and i will assist you with it.
+                             -   <a href="mailto:queries@cavenlim.com?subject=Refund enquiries">
+Contact me </a> and i will assist you with it.
                          
                     
                         
