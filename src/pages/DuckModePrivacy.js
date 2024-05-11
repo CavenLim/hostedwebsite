@@ -111,6 +111,7 @@ export default function DuckModePrivacy() {
                         <div className="aboutInfo">
                             <PText>
                             DuckMode respects the privacy of our users so we do not store any information regarding users or even track users thus users will be safe using DuckMode.
+                            We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.  
                             DuckMode is only for runtime uses so definitely be ensured that no data will be kept.
                         <br/><br/>
    
