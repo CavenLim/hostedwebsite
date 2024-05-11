@@ -24,7 +24,10 @@ const AboutPageStyles = styled.div`
             width: 30%;
         }
     }
-
+    .websiteLink {
+        text-decoration:none; 
+        
+    }
     .topLeft{
         flex:3
     }
@@ -40,7 +43,7 @@ const AboutPageStyles = styled.div`
             border-radius:9px;
         }
     }
-
+    a {text-decoration: underline;}
     .lastUpdatedDate{
        color:lightslategrey;
        margin-top: -2.75rem;
@@ -145,19 +148,22 @@ export default function FilmishPrivacy() {
                         </div>
 
                         <h2 className="aboutHeader">
-                        OPTIONS REGARDING YOUR INFORMATION
+                        OPTIONS REGARDING YOUR PURCHASE
                         </h2>
                         <p className="aboutSubHead">
                            <span>Purchase Information</span>
                         </p>
                         <div className="aboutInfo">
                             <PText>
-                            In any case of disparity should you to choose to refund your app we respect tour decision, you can do so by visiting:
+                            In any case of disparity should you to choose to refund your app we respect tour decision, you can do so by:
                             <br/><br/>
-                             -  <a>https://reportaproblem.apple.com</a>
+                              -   <a target="_blank" href="https://reportaproblem.apple.com">Refund with Apple</a>
+                             <br/><br/>
+                             OR
                              <br/>
-                             -   <a href="mailto:queries@cavenlim.com?subject=Refund enquiries">
-Contact me </a> and i will assist you with it.
+                             <br/>
+                              -    <a href="mailto:queries@cavenlim.com?subject=Refund enquiries">
+                              Contact me</a> and i will assist you with it.
                          
                     
                         
