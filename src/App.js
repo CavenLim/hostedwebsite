@@ -20,6 +20,7 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch ,Redirect} from '
 import { HashRouter } from 'react-router-dom';
 import { Component,useState } from 'react';
 import DuckModePrivacy from './pages/DuckModePrivacy';
+import FilmishPrivacy from './pages/Filmish';
 
 
 class App extends Component {
@@ -61,6 +62,11 @@ class App extends Component {
           <Route exact path= "/taccedprivacy">
           <NavBar title="Tacced"/>
             <TaccedPrivacy />
+          </Route>
+
+          <Route exact path= "/filmishprivacy">
+          <NavBar title="Filmish"/>
+            <FilmishPrivacy />
           </Route>
 
           <Route exact path="/rpapp">
