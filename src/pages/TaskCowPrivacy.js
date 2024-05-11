@@ -117,7 +117,7 @@ export default function TaskCowPrivacy() {
                             taskcow's privacy
                              
                         </h2>
-                        <p className="lastUpdatedDate"> Last updated: 9th Dec 2021</p>
+                        <p className="lastUpdatedDate"> Last updated: 11th May 2024</p>
 
                      
                         <div className="aboutInfo">

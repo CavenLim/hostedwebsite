@@ -2,7 +2,7 @@ import React from 'react';
 import PText from '../Components/Text';
 import placeholder3 from'../assets/Images/placeholder3.jpg'
 import styled from 'styled-components';
-import DuckMode from '../assets/Images/DuckModeIcon.png'
+import FilmishIcon from'../assets/Images/FilmishIcon.png';
 
 const AboutPageStyles = styled.div`
     padding:20rem 0 10rem 0;
@@ -39,6 +39,15 @@ const AboutPageStyles = styled.div`
             padding:0.5rem;
             border-radius:9px;
         }
+    }
+
+    .lastUpdatedDate{
+       color:lightslategrey;
+       margin-top: -2.75rem;
+       margin-bottom:2rem;
+      font-weight:lighter;
+     
+      font-size:1rem;
     }
 
     .aboutHeader{
@@ -91,34 +100,36 @@ const AboutPageStyles = styled.div`
 
 `
 
-export default function DuckModePrivacy() {
+export default function FilmishPrivacy() {
     return (
         <AboutPageStyles>
             <div className="container">
             <div className="right">
-                        <img src={DuckMode} alt=""/>
+                        <img src={FilmishIcon} alt=""/>
                     </div>
                 <div className="topSect">
                     <div className="left">
                         <p className="aboutSubHead">
-                           <span>DuckMode</span>
+                           <span>Filmish</span>
                         </p>
+                      
                         <h2 className="aboutHeader">
-                            DuckMode's privacy
+                            Filmish's privacy
+                             
                         </h2>
-
                         <p className="lastUpdatedDate"> Last updated: 11th May 2024</p>
+
+                     
                         <div className="aboutInfo">
                             <PText>
-                            DuckMode respects the privacy of our users so we do not store any information regarding users or even track users thus users will be safe using DuckMode.
-                            DuckMode is only for runtime uses so definitely be ensured that no data will be kept.
+                            Filmish respects the privacy of our users so we store everything locally on each unique devices . I don't collect, use, disclose, or have any access over your information as your personal data within Filmish is stored locally on your device. Please read this Privacy Policy carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS, USE THE APPLICATION. 
+                        <br/><br/>
+                        We reserve the right to make changes to this Privacy Policy at any time and for any reason.  We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.  
+ 
+                        This Privacy Policy does not apply to the third-party online/mobile store from which you install the Application or make payments, including any items, which may also collect and use data about you.  We are not responsible for any of the data collected by any such third party. 
                         <br/><br/>
    
-                            </PText>
-
-                            <PText>
-                                Recently, DuckMode started supporting iCloud syncing and we only use iCloud as a way to link saved colours between different devices so users will be able to
-                                use our application between devices without worry of data not syncing, other than the colour details we dont save any other data or have access to other User's information.
+                        
                             </PText>
                         </div>
 
@@ -127,15 +138,30 @@ export default function DuckModePrivacy() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            We have a child friendly application so any ages are welcomed to use our application.
+                            We have a child friendly application so any ages are welcomed to use our application however purchases of app from children under 12 will require parental guidance.
                         <br/><br/>
                         
                             </PText>
                         </div>
 
-
-
+                        <h2 className="aboutHeader">
+                        OPTIONS REGARDING YOUR INFORMATION
+                        </h2>
+                        <p className="aboutSubHead">
+                           <span>Purchase Information</span>
+                        </p>
+                        <div className="aboutInfo">
+                            <PText>
+                            In any case of disparity should you to choose to refund your app we respect tour decision, you can do so by visiting:
+                            <br/><br/>
+                             -  https://reportaproblem.apple.com 
+                             <br/>
+                             -  Contact me @caven.cavenlim.com and i will assist you with it.
+                         
+                    
                         
+                            </PText>
+                        </div>
                      
                     </div>
                  
