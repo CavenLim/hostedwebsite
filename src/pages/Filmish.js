@@ -141,34 +141,13 @@ export default function FilmishPrivacy() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            We have a child friendly application so any ages are welcomed to use our application however purchases of app from children under 12 will require parental guidance.
+                            We have a child friendly application so any ages are welcome to use.
                         <br/><br/>
                         
                             </PText>
                         </div>
 
-                        <h2 className="aboutHeader">
-                        OPTIONS REGARDING YOUR PURCHASE
-                        </h2>
-                        <p className="aboutSubHead">
-                           <span>Purchase Information</span>
-                        </p>
-                        <div className="aboutInfo">
-                            <PText>
-                            In any case of disparity should you to choose to refund your app we respect tour decision, you can do so by:
-                            <br/><br/>
-                              -   <a target="_blank" href="https://reportaproblem.apple.com">Refund with Apple</a>
-                             <br/><br/>
-                             OR
-                             <br/>
-                             <br/>
-                              -    <a href="mailto:queries@cavenlim.com?subject=Refund enquiries">
-                              Contact me</a> and i will assist you with it.
-                         
-                    
-                        
-                            </PText>
-                        </div>
+                       
                      
                     </div>
                  
