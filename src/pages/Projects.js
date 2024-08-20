@@ -102,7 +102,7 @@ export default function Projects() {
               <SectTitle
               heading = "Projects" subheading = "my recent works"></SectTitle>
 
-
+{/* 
             <div className="searchBar">
                 <form>
                     <input type="text" placeholder="Project name" value={searchText} 
@@ -111,7 +111,7 @@ export default function Projects() {
                     />
                     <MdSearch className="searchIcon" />
                 </form>
-            </div>
+            </div> */}
 
             <div className="allProjects">
                 {projectData.map(item =>(

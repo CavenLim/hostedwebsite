@@ -3,7 +3,7 @@ import React from 'react';
 import NavBar from './Components/NavBar';
 import Home from './pages/Home';
 import TaskCowDetails from './pages/TaskCowDetails';
-import DogCommDetails from './pages/DogCommDetails';
+import FilmishDetails from './pages/FilmishDetails';
 import RpAppDetails from './pages/RpAppDetails';
 import SolarEduDetails from'./pages/SolarEduDetails';
 import DuckModeDetails from'./pages/DuckModeDetails';
@@ -78,7 +78,11 @@ class App extends Component {
          <NavBar title="TaskCow"/>
             <TaskCowDetails />
           </Route>
-         
+
+          <Route exact path="/filmish">
+         <NavBar title="Filmish"/>
+            <FilmishDetails />
+          </Route>
 
           <Route exact path="/duckmode">
           <NavBar title="DuckMode"/>

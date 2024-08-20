@@ -5,6 +5,7 @@ import placeholder3 from'../assets/Images/placeholder3.jpg'
 import topTaskCow from '../assets/Images/topTaskCow.png';
 import topDuckMode from '../assets/Images/DuckModeTop.png';
 import SSCImage from '../assets/Images/SSCImage.jpg';
+import AppleTalkImage from '../assets/Images/AppleTalk.png'
 import styled from 'styled-components';
 import AboutInfoItem from '../Components/AboutInfoItem';
 import SectTitle from '../Components/SectTitle'
@@ -313,22 +314,22 @@ export default function About() {
                 <br/>  <br/>  <br/>
                 <br/>  <br/>  <br/>
 
-
+                
                 <div className="topSect">
                     <div className="topLeft">
                    
                         <h2 className="aboutHeader">
-                            TaskCow
+                        Today at Apple Session
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            On 31 May 2021 my application TaskCow was on the top charts #6 in Singapore, it was one of my happiest moment since it was the first application I released .
+                            On 22nd June 2022 i was invited with a few other Swift Student Challenge winners of 2022 to share about our winning piece as well as ourselves, i was rlly grateful for such an oppotunity as it was in Singapore's main branch Orchard's Apple Store.
                             </PText>
                         </div>
                      
                     </div>
                     <div className="topRight">
-                        <img src={topTaskCow} alt=""/>
+                        <img src={AppleTalkImage} alt=""/>
                     </div>
 
                 </div>
@@ -337,14 +338,29 @@ export default function About() {
 
                 <div className="topSect">
                     <div className="topLeft">
-                    <img src={topDuckMode} alt=""/>
+                    <img src={topTaskCow} alt=""/>
                        
                      
                     </div>
                     <div className="topRight">
-                    
+                    <h2 className="aboutHeader">
+                            TaskCow
+                        </h2>
+                        <div className="aboutInfo">
+                            <PText>
+                            On 31 May 2021 my application TaskCow was on the top charts #6 in Singapore, it was one of my happiest moment since it was the first application I released .
+                            </PText>
+                        </div>
+                    </div>
 
-                        <h2 className="aboutHeader">
+                </div>
+                <br/>  <br/>  <br/>
+                <br/>  <br/>  <br/>
+
+                <div className="topSect">
+                    <div className="topLeft">
+
+                    <h2 className="aboutHeader">
                             DuckMode
                         </h2>
                         <div className="aboutInfo">
@@ -352,6 +368,13 @@ export default function About() {
                             On 29 September 2021 my application DuckMode was on the top charts #184 in Singapore, it was one of my the first MacOs application I released.
                             </PText>
                         </div>
+                   
+                       
+                     
+                    </div>
+                    <div className="topRight">
+                    <img src={topDuckMode} alt=""/>
+
                     </div>
 
                 </div>
