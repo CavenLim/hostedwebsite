@@ -323,7 +323,7 @@ export default function About() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            On 22nd June 2022 i was invited with a few other Swift Student Challenge winners of 2022 to share about our winning piece as well as ourselves, i was rlly grateful for such an oppotunity as it was in Singapore's main branch Orchard's Apple Store.
+                            On 22nd June 2022 i was invited with a few other Swift Student Challenge winners of 2022 to share about our winning piece as well as our works, i was rlly grateful for such an opportunity as it was in Singapore's main branch Orchard's Apple Store.
                             </PText>
                         </div>
                      

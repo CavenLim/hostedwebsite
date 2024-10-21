@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.23883dd6.css",
-    "main.js": "/static/js/main.9ebea159.js",
+    "main.js": "/static/js/main.54cb2eb9.js",
+    "static/media/galViewSS.png": "/static/media/galViewSS.5c15afba1e1b5441419c.png",
     "static/media/IconsAll.png": "/static/media/IconsAll.a6420137399fafa28786.png",
+    "static/media/AppleTalk.png": "/static/media/AppleTalk.ffd41d8e44fde7b7c5d2.png",
+    "static/media/camViewSS.png": "/static/media/camViewSS.7944193fa4f210e82855.png",
     "static/media/HomePage.png": "/static/media/HomePage.7b7be06a7f1f9e04ae1e.png",
     "static/media/LightMode.png": "/static/media/LightMode.a562c389b2d06788621c.png",
     "static/media/Widgets.png": "/static/media/Widgets.d439a71043ba94acdd18.png",
@@ -10,6 +13,8 @@
     "static/media/ColorListDetail.png": "/static/media/ColorListDetail.a1732f7fbe0f998a1845.png",
     "static/media/Weather.png": "/static/media/Weather.12d7da45c978bc7a6a72.png",
     "static/media/darkWeather.png": "/static/media/darkWeather.63459110fca1aaf41fc6.png",
+    "static/media/halfProcessView.png": "/static/media/halfProcessView.1aa93d6ce66fe6921ec0.png",
+    "static/media/processView.png": "/static/media/processView.593b3729e387e7e0c9c3.png",
     "static/media/HomePageInit.png": "/static/media/HomePageInit.69221848fccba8ca6dd6.png",
     "static/media/ComplementaryColours.png": "/static/media/ComplementaryColours.fb822609d029145e0448.png",
     "static/media/Location1.png": "/static/media/Location1.372d0b4d0ba2cf91f65c.png",
@@ -18,6 +23,7 @@
     "static/media/Leo2.0.png": "/static/media/Leo2.0.3a5a9e3a909509292bf3.png",
     "static/media/dogComm.png": "/static/media/dogComm.f0a2c870236f23ad8f07.png",
     "static/media/Chat.png": "/static/media/Chat.10ebfa30f70b9d4b1f1f.png",
+    "static/media/homeView.png": "/static/media/homeView.00cbc5f36347f4b9950f.png",
     "static/media/LogIn.png": "/static/media/LogIn.b254c8ec7e6b3a291853.png",
     "static/media/LaunchScreen.png": "/static/media/LaunchScreen.9c9d5b0267fd04256a52.png",
     "static/media/SetNotifications.png": "/static/media/SetNotifications.314e641b0e9b96d8f27b.png",
@@ -71,7 +77,6 @@
     "static/media/TaccedAppIcon.png": "/static/media/TaccedAppIcon.0a7672007879cd25aa13.png",
     "static/media/RpHamburger.jpg": "/static/media/RpHamburger.2320a8deeac2f6b6ff5a.jpg",
     "static/media/RpMenu.jpg": "/static/media/RpMenu.3d994b2f1e7d450fe779.jpg",
-    "static/media/doggo.png": "/static/media/doggo.60e08eac7f22cddc8b69.png",
     "static/media/AnimalKingdom.png": "/static/media/AnimalKingdom.3b39f2ed9ba81c7bd144.png",
     "static/media/RpGrades.jpg": "/static/media/RpGrades.ff43b93ed28ccf33ee51.jpg",
     "static/media/RpModules.jpg": "/static/media/RpModules.796cb328342bdb263b05.jpg",
@@ -95,10 +100,10 @@
     "static/media/Color.jpeg": "/static/media/Color.3ae8f66df77cca7e1a3f.jpeg",
     "index.html": "/index.html",
     "main.23883dd6.css.map": "/static/css/main.23883dd6.css.map",
-    "main.9ebea159.js.map": "/static/js/main.9ebea159.js.map"
+    "main.54cb2eb9.js.map": "/static/js/main.54cb2eb9.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.9ebea159.js"
+    "static/js/main.54cb2eb9.js"
   ]
 }
