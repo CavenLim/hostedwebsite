@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23883dd6.css",
-    "main.js": "/static/js/main.5de3f008.js",
+    "main.js": "/static/js/main.b546aaec.js",
     "static/media/galViewSS.png": "/static/media/galViewSS.5c15afba1e1b5441419c.png",
     "static/media/IconsAll.png": "/static/media/IconsAll.a6420137399fafa28786.png",
     "static/media/AppleTalk.png": "/static/media/AppleTalk.ffd41d8e44fde7b7c5d2.png",
@@ -17,6 +17,7 @@
     "static/media/processView.png": "/static/media/processView.593b3729e387e7e0c9c3.png",
     "static/media/HomePageInit.png": "/static/media/HomePageInit.69221848fccba8ca6dd6.png",
     "static/media/ComplementaryColours.png": "/static/media/ComplementaryColours.fb822609d029145e0448.png",
+    "static/media/SSCImage.jpg": "/static/media/SSCImage.2f8a921cc9912d3468ed.jpg",
     "static/media/Location1.png": "/static/media/Location1.372d0b4d0ba2cf91f65c.png",
     "static/media/OnBoard.png": "/static/media/OnBoard.c4a0f0fa81a79b3bc845.png",
     "static/media/Location2.png": "/static/media/Location2.21708509674c5f5e15d0.png",
@@ -66,7 +67,6 @@
     "static/media/Location.jpeg": "/static/media/Location.9152acb40096dda2a986.jpeg",
     "static/media/RpApp2.png": "/static/media/RpApp2.39eb9f8880b7a5386db1.png",
     "static/media/QuizPage.png": "/static/media/QuizPage.859ebc2d52f1decbee08.png",
-    "static/media/SSCImage.jpg": "/static/media/SSCImage.5df6e31b8afdf04cbc79.jpg",
     "static/media/Location2.jpeg": "/static/media/Location2.b480752b66abeacdbbfc.jpeg",
     "static/media/EventsPage.jpeg": "/static/media/EventsPage.515b651f1b4f8203c00e.jpeg",
     "static/media/topTaskCow.png": "/static/media/topTaskCow.770bdf5ae76f2139401f.png",
@@ -100,10 +100,10 @@
     "static/media/Color.jpeg": "/static/media/Color.3ae8f66df77cca7e1a3f.jpeg",
     "index.html": "/index.html",
     "main.23883dd6.css.map": "/static/css/main.23883dd6.css.map",
-    "main.5de3f008.js.map": "/static/js/main.5de3f008.js.map"
+    "main.b546aaec.js.map": "/static/js/main.b546aaec.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.5de3f008.js"
+    "static/js/main.b546aaec.js"
   ]
 }
