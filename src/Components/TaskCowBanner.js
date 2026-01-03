@@ -98,11 +98,11 @@ const SloganContainer = styled.div`
     
     width: 100%;
     max-width: 500px; /* Adjust the maximum width as needed */
-    white-space: nowrap;
+    //white-space: nowrap;
     @media only screen and (max-width:400px){
         width: 100%;
         max-width: 250px; /* Adjust the maximum width as needed */
-        white-space: nowrap;
+        //white-space: nowrap;
        
     }
     

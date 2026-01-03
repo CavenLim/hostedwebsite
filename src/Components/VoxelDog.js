@@ -59,8 +59,6 @@ const VoxelDog = () => {
                 renderer.setSize(window.innerWidth*0.70,560);
                 camera.aspect=window.innerWidth/window.innerHeight;
              
-               
-            
             })
 
             if (window.innerWidth <= 768){

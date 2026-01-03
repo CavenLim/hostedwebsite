@@ -49,9 +49,6 @@ const ErrorStyles = styled.div`
     @media only screen and (max-width:760px){
       margin-top: -10rem;
         
-       
-       
-        
     } 
 
 

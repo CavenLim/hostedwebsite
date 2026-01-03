@@ -87,17 +87,17 @@ const SloganContainer = styled.div`
        
     width: 100%;
     max-width: 500px; /* Adjust the maximum width as needed */
-    white-space: nowrap;
+    //white-space: nowrap;
     @media only screen and (max-width:400px){
         width: 100%;
         max-width: 250px; /* Adjust the maximum width as needed */
-        white-space: nowrap;
+        //white-space: nowrap;
         
     }
 `;
 
 const Slogan = styled.h2`
-    margin: 0 ;
+    margin: 0;
  
     font-size:20px;
     color:  white;
@@ -145,15 +145,8 @@ const BtnGo = styled.button`
     font-size: 0.5rem; 
     cursor: pointer;
 
-  
-
-
     path{
         color:white;
-     
-       
-
-     
     }
 
    
@@ -161,10 +154,7 @@ const BtnGo = styled.button`
         align-self: center;
        justify-self: center;
        
-   
     }
-    
-
 
 
 `
@@ -179,17 +169,11 @@ const ImageApp = styled.div`
         height: 100%;
     }
 
-
     @media only screen and (min-width:1500px){
-   
-        
         margin-left:500px;
-
-
     }
     @media only screen and (max-width:760px){
    
-        
         float:top;
         margin: -21rem;
         width: 9em;
