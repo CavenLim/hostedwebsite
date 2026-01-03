@@ -7,13 +7,13 @@ const AllStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x:hidden ;
+  
   }
   @media (prefers-color-scheme: dark) {
     :root{//[data-theme="dark"]
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
-    --deep-dark: #1E1E1E;
+    --deep-dark: #9d7878ff;
     --gray-2: #363636;
     --white: white;
     --black: black;
