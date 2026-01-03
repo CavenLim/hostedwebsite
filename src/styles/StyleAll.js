@@ -8,6 +8,12 @@ const AllStyles = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
   }
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
   @media (prefers-color-scheme: dark) {
     :root{//[data-theme="dark"]
     --dark-bg: #262626;
