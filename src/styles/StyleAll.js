@@ -7,6 +7,7 @@ const AllStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
   }
   @media (prefers-color-scheme: dark) {
     :root{//[data-theme="dark"]
