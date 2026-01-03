@@ -19,7 +19,6 @@ const HeroStyles = styled.div`
     justify-content: center;
     position: relative;
    
-
 }
 
 .hero_header{
@@ -37,7 +36,6 @@ const HeroStyles = styled.div`
         font-family:inherit;
         //font-family: -apple-system, sans-serif;
         
-  
         color: var(--white);
     }
    
@@ -74,18 +72,13 @@ const HeroStyles = styled.div`
                     padding-top:1rem;
                     width: 80%;
                    
-                    
-            
-                    
                 }
           
         }
         .heroInfo{
             margin-top:5rem;
-
          }
        
-        
     } 
 
 
@@ -96,20 +89,14 @@ export default function HeroSect() {
    
         <HeroStyles>
             <div className="hero">
-              
-            
             <div className="container">
                 <h1 className="hero_header">
                     <span>Hello! This is</span>
                     <span className="heroName">Caven Lim</span>
                 </h1>
                 
-               
-                
                 <Container maxW="container.xl" pt={-10}>
                 <VoxelDog/>
-       
-              
                 </Container>
 
                 {/* <div className="heroImage">
@@ -119,13 +106,7 @@ export default function HeroSect() {
                     <PText>Software Developer from Singapore
                     
                     </PText>
-                  
-
-
-
                 </div>
-         
-            
             </div>
             </div>
         </HeroStyles>

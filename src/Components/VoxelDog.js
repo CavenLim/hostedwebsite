@@ -54,13 +54,23 @@ const VoxelDog = () => {
             controls.autoRotate = true
             controls.target = target
         
-            setControls(controls)
+            //setControls(controls)
             window.addEventListener('resize',function(){
                 renderer.setSize(window.innerWidth*0.70,560);
                 camera.aspect=window.innerWidth/window.innerHeight;
-                
+             
+               
             
             })
+
+            if (window.innerWidth <= 768){
+                controls.enableRotate = false;
+                controls.enablePan = false;
+                controls.enableZoom = false;
+            
+            }
+            
+            setControls(controls)
 
             loadGLTFModel(scene,'/DoggyDone.glb',{
                 receiveShadow: false,
