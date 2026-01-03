@@ -193,8 +193,8 @@ const ImageApp = styled.div`
         
         float:top;
         margin: -21rem;
-        width: 9em;
-        height: 8.5em;
+        width: 6em;
+        height: 6m;
         margin-left:-55rem;
         
    
