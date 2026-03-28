@@ -1,0 +1,162 @@
+import React from 'react';
+import PText from '../Components/Text';
+import placeholder3 from'../assets/Images/placeholder3.jpg'
+import styled from 'styled-components';
+import MrtInSGIcon from'../assets/Images/MrtInSGIcon.png';
+
+const AboutPageStyles = styled.div`
+    padding:20rem 0 10rem 0;
+    .topSect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+    }
+    .left{
+        flex:3
+    }
+    .right{
+    
+        img{
+            margin-left:35rem;
+            margin-bottom:5rem;
+            margin-top:-7rem;
+            width: 30%;
+        }
+    }
+    .websiteLink {
+        text-decoration:none; 
+        
+    }
+    .topLeft{
+        flex:3
+    }
+    .topRight{
+        flex:3
+    }
+    .aboutSubHead{
+        font-size: 2.2rem;
+        margin-bottom:2rem;
+        span{
+            background-color: var(--deep-dark);
+            padding:0.5rem;
+            border-radius:9px;
+        }
+    }
+    a {text-decoration: underline;}
+    .lastUpdatedDate{
+       color:lightslategrey;
+       margin-top: -2.75rem;
+       margin-bottom:2rem;
+      font-weight:lighter;
+     
+      font-size:1rem;
+    }
+
+    .aboutHeader{
+        font-size: 3.6rem;
+        margin-bottom:3rem;
+    }
+    .aboutInfo{
+        margin-bottom: 4rem;
+        .para{
+            max-width: 100%;
+        }
+    }
+    
+    .aboutInfoItems{
+        margin-top: 15rem;
+    }
+    .aboutInfoItem{
+        margin-bottom:10rem;
+    }
+    .aboutHeader{
+        font-size: 3.6rem;
+        text-transform:uppercase;
+    }
+
+    @media only screen and (max-width:860px){
+        padding:10rem 0 ;
+        .topSect{
+            flex-direction: column;
+            gap:5rem;
+
+        }
+        .aboutSubHead{
+            font-size: 1.7rem;
+        }
+        .aboutHeader{
+            font-size: 3rem;
+        }
+
+        .right{
+    
+        img{
+            margin-left:17rem;
+            margin-bottom:5rem;
+            margin-top:-2rem;
+            width: 30%;
+         }
+}
+    }
+
+
+`
+
+export default function MrtInSgPrivacy() {
+    return (
+        <AboutPageStyles>
+            <div className="container">
+            <div className="right">
+                        <img src={MrtInSGIcon} alt=""/>
+                    </div>
+                <div className="topSect">
+                    <div className="left">
+                        <p className="aboutSubHead">
+                           <span>Mrt In SG</span>
+                        </p>
+                      
+                        <h2 className="aboutHeader">
+                            Mrt In SG's privacy
+                             
+                        </h2>
+                        <p className="lastUpdatedDate"> Last updated: 28th March 2026</p>
+
+                     
+                        <div className="aboutInfo">
+                            <PText>
+                            Mrt In SG respects the privacy of our users so we do not track and store any data. Our data are all fetched during runtime so no storage of data or caching is required. Please read this Privacy Policy carefully. If you do not agree with the terms of this privacy policy, please do not use the application. 
+                        <br/><br/>
+                        We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.  
+ 
+                        This Privacy Policy does not apply to the third-party online/mobile store from which you install the Application, including any items, which may also collect and use data about you.  We are not responsible for any of the data collected by any such third party. 
+                        <br/><br/>
+   
+                        
+                            </PText>
+                        </div>
+
+                        <h2 className="aboutHeader">
+                            policy for childrens
+                        </h2>
+                        <div className="aboutInfo">
+                            <PText>
+                            We have a child friendly application so any ages are welcome to use.
+                        <br/><br/>
+                        
+                            </PText>
+                        </div>
+
+                       
+                     
+                    </div>
+                 
+
+                </div>
+                
+
+            </div>
+        </AboutPageStyles>
+    )
+}
+

@@ -21,6 +21,7 @@ import { HashRouter } from 'react-router-dom';
 import { Component,useState } from 'react';
 import DuckModePrivacy from './pages/DuckModePrivacy';
 import FilmishPrivacy from './pages/Filmish';
+import MrtInSgPrivacy from './pages/MrtInSgPrivacy';
 
 
 
@@ -70,6 +71,11 @@ class App extends Component {
           <Route exact path= "/filmishprivacy">
           <NavBar title="Filmish"/>
             <FilmishPrivacy />
+          </Route>
+
+            <Route exact path= "/mrtinsgprivacy">
+          <NavBar title="MrtInSg"/>
+            <MrtInSgPrivacy />
           </Route>
 
           <Route exact path="/rpapp">
