@@ -21,49 +21,27 @@ const designs = [
     },
     {
       id: 1,
-      name: 'WWDC 2021',
-      desc:
-        'A design i made to celebrate WWDC 2021 that consist of memojis.',
-      img: Memoji
-    },
-    {
-      id: 2,
       name: 'WindMac',
       desc:
         'I tried combining MacOS and Windows OS basically merging some features and adding some of my own new features, it is just a fun design concept that will probably not happen.',
       img: WindMac,
     },
     {
-        id: 3,
-        name: "iMac WindMac",
-        desc:
-          "My WindMac design used as iMac's background" ,
-          img: iMacWindMac,
-      },
-    {
-      id: 4,
+      id: 3,
       name: 'Light Mode Mac Bg',
       desc:
         "A simple Mac inspired background for light mode.",
       img: LightModeMacBg,
     },
     {
-      id: 5,
+      id: 4,
       name: "Dark Mode Mac Bg",
       desc:
         'A simple Mac inspired background for dark mode.',
         img: DarkModeMacBg,
     },
-   
       {
-        id: 6,
-        name: "Animal Kingdom",
-        desc:
-          'A simple Mac inspired background with animals.',
-          img: AnimalKingdom,
-      },
-      {
-        id: 7,
+        id: 5,
         name: "SkyMounts",
         desc:
           'A simple Mac inspired background with sky element.',

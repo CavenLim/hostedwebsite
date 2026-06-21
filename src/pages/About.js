@@ -174,16 +174,15 @@ export default function About() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            I am a student from Singapore pursuing the field of software development with a goal of becoming a software developer in years to come. 
-                            I am also someone very interested in UI design/UX design.
+                            I am a student from Singapore pursuing the field of software development with a goal of becoming a software developer/ AI Engineer in years to come. 
+                            I am also someone very interested in UI design & UX design.
                         <br/><br/>
 
-                        This is the site where you'll be able to see my app concepts as well as application i have developed. I will say applications regarding animals
-                        will interest me a lot since im a huge cow and dog lover, so definitely if you have an application idea regarding animals hit me up. You should be able to
-                        tell since most of my app's branding revolves around animal that can also be understood as my style whenever designing app's icons.
+                        This is the site where you'll be able to see my app concepts as well as application i have developed. I will say that my application ideas are all based on my day to day life
+                        , applications i wish to have thus putting forward my own ideas to action. I am still exploring and learning as i get exposed to more of software development especially working with Artificial Intelligence
+                        , so having this website is also like a documentation of my journey and learning processes in this field.
 
-                        I am still exploring and learning as i get exposed to more of software development, so having this website is also like a documentation of my journey and learning processes
-                        in this field.
+
                         
                             </PText>
                         </div>
@@ -252,7 +251,7 @@ export default function About() {
                         
                         title = "Others"
                         item = {[
-                            "OutSystems"
+                            "OutSystems", "Claude", "Gemini"
                         ]}/>
                     </div>
                 </div>
