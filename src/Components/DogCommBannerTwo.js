@@ -1,271 +1,127 @@
 import React from 'react'
 import styled from 'styled-components'
 import DogComm from '../assets/DogCommTwoImages/DogComm.png'
-import Button from './Button';
-import { Marginer } from './marginer';
-import {GrAppleAppStore} from 'react-icons/gr';
-import { NavLink } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 
-import {FaArrowRight} from 'react-icons/fa';
-
-const TaskCowBannerContainer = styled.div`
-
+const BannerContainer = styled.div`
     width: 100%;
-    height:390px;
+    height: 400px;
     display: flex;
-    background-image: linear-gradient(to bottom right, #e75480, black);
     align-items: center;
-    justify-content: center;
-    position: relative;
+    background-color: var(--deep-dark);
+    border-top: 1px solid var(--gray-2);
+    border-bottom: 1px solid var(--gray-2);
 
-    .custom-shape-divider-top-1631952944 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1631952944 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 53px;
-}
-
-.custom-shape-divider-top-1631952944 .shape-fill {
-    fill: #FFFFFF;
-    opacity: .2;
-}
-
-.custom-shape-divider-bottom-1631953452 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1631953452 svg {
-    position: relative;
-    display: block;
-    width: calc(205% + 1.3px);
-    height: 81px;
-}
-
-.custom-shape-divider-bottom-1631953452 .shape-fill {
-    fill: #FFFFFF;
-    opacity: .3;
-}
-
-
+    @media only screen and (max-width: 760px) {
+        height: auto;
+        padding: 3rem 0;
+    }
 `
 
 const ContentContainer = styled.div`
-
     width: 100%;
     display: flex;
     align-items: center;
-    margin-left:200px;
-    gap:5rem;
+    justify-content: space-between;
+    padding: 0 10%;
 
-    @media only screen and (max-width:760px){
-        display: flex;
+    @media only screen and (max-width: 760px) {
         flex-direction: column;
-        gap:0rem;
-        margin-left:5rem ;
-        margin-top:-5rem;
+        gap: 2rem;
+        padding: 0 2rem;
     }
-    
+`
 
-`;
 const SloganContainer = styled.div`
     display: flex;
-    flex-direction:column;
-       
-    width: 100%;
-    max-width: 500px; /* Adjust the maximum width as needed */
-    //white-space: nowrap;
-
-    @media only screen and (max-width:400px){
-        width: 100%;
-        max-width: 250px; /* Adjust the maximum width as needed */
-        //white-space: nowrap;
-       
-    }
-`;
-
-
-
-const Slogan = styled.h2`
-    margin: 0 ;
- 
-    font-size:20px;
-    color:white;
-    font-weight: 450;
-
-    @media only screen and (max-width:760px){
-        font-size:14px;
-   
-    }
-
-
-
+    flex-direction: column;
+    gap: 0.4rem;
 `
-
 
 const SloganTitle = styled.h2`
-    margin: 0 ;
-    margin-bottom:2rem;
-    font-size:30px;
-    color:white;
+    margin: 0;
+    font-size: 2rem;
+    color: var(--white);
     font-weight: 700;
-    
-
-
-
 `
 
-const ButtonsDivStyle = styled.div`
+const Slogan = styled.p`
+    margin: 0;
+    font-size: 1rem;
+    color: var(--gray-1);
+    font-weight: 400;
+`
+
+const ButtonsDiv = styled.div`
     display: flex;
     gap: 1rem;
-
-
+    margin-top: 1.5rem;
+    align-items: center;
 `
 
-
-
-const BtnGo = styled.button`
-
+const IconBtn = styled.button`
     background-color: transparent;
-    border-radius:4rem;
-    border: none; 
-    color: #ffffff;
-    width:3rem ;
-    height:3rem ;
-    font-size: 0.5rem; 
+    border: 1px solid var(--gray-2);
+    border-radius: 2rem;
+    color: var(--white);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    transition: border-color 0.2s;
 
-  
-
-
-    path{
-        color:white;
-     
-       
-
-     
+    &:hover {
+        border-color: var(--white);
     }
 
-   
-    @media only screen and (max-width:760px){
-        align-self: center;
-       justify-self: center;
-       
-   
+    svg {
+        color: var(--white);
+        font-size: 1rem;
     }
-    
-
-
-
 `
 
 const ImageApp = styled.div`
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
 
-    width: 15em;
-    height: 14em;
-    margin-left:300px;
-
-    img{
+    img {
+        object-fit: contain;
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        border-radius: 28px;
     }
 
-    @media only screen and (min-width:1500px){
-   
-        
-        margin-left:500px;
-
-
+    @media only screen and (max-width: 760px) {
+        width: 100px;
+        height: 100px;
     }
-
-    @media only screen and (max-width:760px){
-   
-        
-        float:top;
-        margin: -21rem;
-        width: 7em;
-        height: 7em;
-        margin-left:-55rem;
-        
-   
-    }
-
-    @media only screen and (max-width:400px){
-
-        margin-left:-45rem;
-
-    }
-
 `
 
-// for new windows open url
-function onClick(urlName){
-    window.open(
-        urlName,
-        '_blank' //open in a new window.
-      );
-  
-}
-// for non new windows opener
-function onClick2(urlName){
-    window.location.href = urlName
-  
+function openSame(url) {
+    window.location.href = url;
 }
 
 export default function DogCommBannerTwo() {
     return (
-        <TaskCowBannerContainer>
-<div class="custom-shape-divider-top-1631952944">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
-</div>
+        <BannerContainer>
             <ContentContainer>
                 <SloganContainer>
-      
-                   <Marginer direction="vertical" margin="1em"/>
-                    <SloganContainer>
-                        <SloganTitle>DogComm</SloganTitle>
-                        <Slogan>
-                            Gather all the dog lovers/owners to celebrate our doggos
-                        </Slogan>
-                        
-                        <Slogan>
-                            as we gather as a community!
-                        </Slogan>
-                    </SloganContainer>
-                    <Marginer direction="vertical" margin={20}/>
-                    <ButtonsDivStyle className="Buttons">
-                    <BtnGo id="bt2" onClick={() => onClick2('/#/dogcomm')}outline={false}><FaArrowRight/></BtnGo>
-                    </ButtonsDivStyle>
-                    
+                    <SloganTitle>DogComm</SloganTitle>
+                    <Slogan>Gather all the dog lovers/owners to celebrate our doggos</Slogan>
+                    <Slogan>as we gather as a community!</Slogan>
+                    <ButtonsDiv>
+                        <IconBtn onClick={() => openSame('/#/dogcomm')}>
+                            <FaArrowRight />
+                        </IconBtn>
+                    </ButtonsDiv>
                 </SloganContainer>
                 <ImageApp>
-                    <img src={DogComm} alt="" />
+                    <img src={DogComm} alt="DogComm" />
                 </ImageApp>
             </ContentContainer>
-            <div class="custom-shape-divider-bottom-1631953452">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
-</div>
-            
-        </TaskCowBannerContainer>
-        
+        </BannerContainer>
     )
 }

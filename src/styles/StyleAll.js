@@ -20,6 +20,7 @@ const AllStyles = createGlobalStyle`
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
+    --banner-bg: #2e2e2e;
     --white: white;
     --black: black;
     --navbar-bg:rgba(30,30,30,0.90);
@@ -34,6 +35,7 @@ const AllStyles = createGlobalStyle`
     --gray-1: #000000;
     --deep-dark: rgba(204,204,204,0.60);
     --gray-2: #363636;
+    --banner-bg: #f0f0f0;
     --white: black;
     --black: white;
     --navbar-bg:rgba(232,232,232,0.75);

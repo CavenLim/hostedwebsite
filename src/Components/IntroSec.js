@@ -4,8 +4,9 @@ import IntroSectItem from './IntroSectItem'
 import SectTitle from './SectTitle'
 
 import {CgDesignmodo} from 'react-icons/cg'
-import {MdComputer} from 'react-icons/md'
+import { MdMemory } from 'react-icons/md'
 import {SiApple} from 'react-icons/si'
+
 
 const IntroSecStyles = styled.div`
 
@@ -47,11 +48,11 @@ export default function IntroSec() {
                 as well as some random crazy designs." 
             
             />
-            <IntroSectItem icon ={<MdComputer/>}  title="Back End Development" desc="I also enjoy being able to code my own back end/server side code since
-            i can have full control and will be able to allow my application to work the way i code it to be, i'm not just a front end dev but also back end dev since
-            my interest is in these areas too."/>
-            <IntroSectItem icon = {<SiApple/>} title="IOS App Development" desc="Another language i will always use is Swift with the SwiftUi framework since i enjoy
+                        <IntroSectItem icon = {<SiApple/>} title="IOS App Development" desc="Another language i will always use is Swift with the SwiftUi framework since i enjoy
             having the ability to code out my own app's user interface than to use drag and drop which is usually very constraining and limiting to the app's user interface."/>
+            <IntroSectItem icon ={<MdMemory/>}  title="AI & Agentic Systems" desc="I enjoy building full-stack applications, but what excites me most is working with AI agents and agentic tools. 
+            I'm deeply interested in how AI is shaping the future, and I love being able to code systems that think, act, and work alongside me, not just applications that respond to input."/>
+
             </div>
            </div>
             

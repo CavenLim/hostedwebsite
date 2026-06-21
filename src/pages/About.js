@@ -174,7 +174,7 @@ export default function About() {
                         </h2>
                         <div className="aboutInfo">
                             <PText>
-                            I am a student from Singapore pursuing the field of software development with a goal of becoming a software developer/ AI Engineer in years to come. 
+                            I am a student from Singapore pursuing the field of software development with a goal of becoming a Software Developer/AI Engineer in years to come. 
                             I am also someone very interested in UI design & UX design.
                         <br/><br/>
 
