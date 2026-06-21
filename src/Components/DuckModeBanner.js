@@ -10,7 +10,7 @@ const BannerContainer = styled.div`
     height: 400px;
     display: flex;
     align-items: center;
-    background-color: var(--deep-dark);
+    background-color: var(--banner-bg);
     border-top: 1px solid var(--gray-2);
     border-bottom: 1px solid var(--gray-2);
 

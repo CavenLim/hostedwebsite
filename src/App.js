@@ -7,6 +7,7 @@ import FilmishDetails from './pages/FilmishDetails';
 import RpAppDetails from './pages/RpAppDetails';
 import SolarEduDetails from'./pages/SolarEduDetails';
 import DuckModeDetails from'./pages/DuckModeDetails';
+import MrtInSgDetails from './pages/MrtInSgDetails';
 import DogCommTwoDetails from'./pages/DogCommTwoDetails';
 import TaskCowPrivacy from'./pages/TaskCowPrivacy';
 import TaccedPrivacy from'./pages/TaccedPrivacy';
@@ -91,6 +92,11 @@ class App extends Component {
           <Route exact path="/filmish">
          <NavBar title="Filmish"/>
             <FilmishDetails />
+          </Route>
+
+           <Route exact path="/mrtinsg">
+         <NavBar title="MrtInSg"/>
+            <MrtInSgDetails />
           </Route>
 
           <Route exact path="/duckmode">

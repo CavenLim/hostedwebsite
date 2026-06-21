@@ -1,15 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import TaskCow2 from '../assets/Images/TaskCow2.png';
+import MrtInSgIcon from '../assets/Images/MrtInSg.png';
+import { Marginer } from './marginer';
 import { GrAppleAppStore } from 'react-icons/gr';
 import { FaArrowRight } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 
 const BannerContainer = styled.div`
     width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
-    background-color: var(--deep-dark);
+    background-color: var(--banner-bg);
     border-top: 1px solid var(--gray-2);
     border-bottom: 1px solid var(--gray-2);
 
@@ -109,25 +111,25 @@ function openSame(url) {
     window.location.href = url;
 }
 
-export default function TaskCowBanner() {
+export default function FilmishBanner() {
     return (
         <BannerContainer>
             <ContentContainer>
                 <SloganContainer>
-                    <SloganTitle>TaskCow</SloganTitle>
-                    <Slogan>Let your productivity go up with TaskCow and your Home Screen</Slogan>
-                    <Slogan>as you get reminded of tasks you set!</Slogan>
+                    <SloganTitle>Mrt In Sg</SloganTitle>
+                    <Slogan>Real-time crowd level, first & last train timings, and service alerts.</Slogan>
+                    <Slogan>Everything you need for your daily commute across Singapore's MRT network.</Slogan>
                     <ButtonsDiv>
-                        <IconBtn onClick={() => openNewTab('https://apps.apple.com/sg/app/taskcow/id1565968348')}>
+                        <IconBtn onClick={() => openNewTab('https://apps.apple.com/sg/app/mrt-in-sg/id6760958462')}>
                             <GrAppleAppStore />
                         </IconBtn>
-                        <IconBtn onClick={() => openSame('/#/taskcow')}>
+                        <IconBtn onClick={() => openSame('/#/MrtInSg')}>
                             <FaArrowRight />
                         </IconBtn>
                     </ButtonsDiv>
                 </SloganContainer>
                 <ImageApp>
-                    <img src={TaskCow2} alt="TaskCow App Icon" />
+                    <img src={MrtInSgIcon} alt="Mrt In Sg App Icon" />
                 </ImageApp>
             </ContentContainer>
         </BannerContainer>

@@ -8,9 +8,6 @@ export default function Home() {
         <div>
         <SSCSect />
           
-        
-        
-            
         </div>
     )
 }

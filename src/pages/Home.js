@@ -8,6 +8,7 @@ import TaskCowBanner from '../Components/TaskCowBanner';
 import RpAppBanner from '../Components/RpAppBanner';
 import SolarEduBanner from '../Components/SolarEduBanner';
 import FilmishBanner from'../Components/FilmishBanner';
+import MrtInSgBanner from'../Components/MrtInSgBanner';
 import DuckModeBanner from '../Components/DuckModeBanner';
 import DogCommBannerTwo from '../Components/DogCommBannerTwo';
 
@@ -20,6 +21,7 @@ export default function Home() {
             {/* <AboutSect/> */}
             <IntroSec/> 
             <ProjectSect/>
+            <MrtInSgBanner />
             <FilmishBanner />
             <DuckModeBanner/>
             <TaskCowBanner/>
