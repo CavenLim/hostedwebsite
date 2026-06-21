@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23883dd6.css",
-    "main.js": "/static/js/main.388e47d3.js",
+    "main.js": "/static/js/main.a4cad428.js",
     "static/media/galViewSS.png": "/static/media/galViewSS.5c15afba1e1b5441419c.png",
     "static/media/IconsAll.png": "/static/media/IconsAll.a6420137399fafa28786.png",
     "static/media/AppleTalk.png": "/static/media/AppleTalk.ffd41d8e44fde7b7c5d2.png",
@@ -33,7 +33,6 @@
     "static/media/App4BG.png": "/static/media/App4BG.2f1f910a86e765072c3d.png",
     "static/media/Oasis2.0.png": "/static/media/Oasis2.0.287e74dbb7de8d26beee.png",
     "static/media/MatchedScreen.png": "/static/media/MatchedScreen.1e5d8dd271e313cbceb7.png",
-    "static/media/Memoji.png": "/static/media/Memoji.7d3cae30794e6bf76cdb.png",
     "static/media/VerifyNumber.png": "/static/media/VerifyNumber.1e7c40f805dc06a7ce86.png",
     "static/media/VerifyPage.png": "/static/media/VerifyPage.9627e80f50195348862a.png",
     "static/media/CreatePage.png": "/static/media/CreatePage.d8ed8e2ef689db77dc9e.png",
@@ -48,7 +47,6 @@
     "static/media/HomePageNone.png": "/static/media/HomePageNone.cc36125befbaf4d19590.png",
     "static/media/TonesPage.png": "/static/media/TonesPage.cf05d818f04d411b7184.png",
     "static/media/RandomColor.png": "/static/media/RandomColor.87182cd6ce4dc7ec80f4.png",
-    "static/media/iMacWindMac.png": "/static/media/iMacWindMac.7eea33a3c9d8112d42f1.png",
     "static/media/CompletedTaskPage.png": "/static/media/CompletedTaskPage.f584fc24a61a1afa7607.png",
     "static/media/WindMac.png": "/static/media/WindMac.10c1194d1c175e979b44.png",
     "static/media/MessageScreen.png": "/static/media/MessageScreen.e5f59a0f84a98e021ad6.png",
@@ -77,7 +75,6 @@
     "static/media/TaccedAppIcon.png": "/static/media/TaccedAppIcon.0a7672007879cd25aa13.png",
     "static/media/RpHamburger.jpg": "/static/media/RpHamburger.2320a8deeac2f6b6ff5a.jpg",
     "static/media/RpMenu.jpg": "/static/media/RpMenu.3d994b2f1e7d450fe779.jpg",
-    "static/media/AnimalKingdom.png": "/static/media/AnimalKingdom.3b39f2ed9ba81c7bd144.png",
     "static/media/RpGrades.jpg": "/static/media/RpGrades.ff43b93ed28ccf33ee51.jpg",
     "static/media/RpModules.jpg": "/static/media/RpModules.796cb328342bdb263b05.jpg",
     "static/media/RpCalendar.jpg": "/static/media/RpCalendar.496ed63dd0b9a7a21d33.jpg",
@@ -101,10 +98,10 @@
     "static/media/Color.jpeg": "/static/media/Color.3ae8f66df77cca7e1a3f.jpeg",
     "index.html": "/index.html",
     "main.23883dd6.css.map": "/static/css/main.23883dd6.css.map",
-    "main.388e47d3.js.map": "/static/js/main.388e47d3.js.map"
+    "main.a4cad428.js.map": "/static/js/main.a4cad428.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.388e47d3.js"
+    "static/js/main.a4cad428.js"
   ]
 }
