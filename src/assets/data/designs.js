@@ -3,11 +3,8 @@ import React from 'react';
 
 import WindMac from '../Images/WindMac.png';
 import SkyMounts from '../Images/SkyMounts.png';
-import Memoji from '../Images/Memoji.png';
-import iMacWindMac from '../Images/iMacWindMac.png';
 import LightModeMacBg from '../Images/LightModeMacBg.png';
 import DarkModeMacBg from '../Images/DarkModeMacBg.png';
-import AnimalKingdom from '../Images/AnimalKingdom.png';
 import MacBgSwiftUi from '../Images/MacBgClonedSwiftUi.png';
 
 
