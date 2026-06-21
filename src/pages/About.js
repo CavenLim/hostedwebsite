@@ -183,7 +183,6 @@ export default function About() {
                         , so having this website is also like a documentation of my journey and learning processes in this field.
 
 
-                        
                             </PText>
                         </div>
                      
@@ -212,7 +211,7 @@ export default function About() {
                         
                         title = "Tertiary"
                         item = {[
-                            "Republic Polytechnic"
+                            "Republic Polytechnic", "University"
                         ]}/>
                     </div>
 
