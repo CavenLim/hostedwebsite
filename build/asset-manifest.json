@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23883dd6.css",
-    "main.js": "/static/js/main.6d9ab27b.js",
+    "main.js": "/static/js/main.6af77809.js",
     "static/media/galViewSS.png": "/static/media/galViewSS.5c15afba1e1b5441419c.png",
     "static/media/IconsAll.png": "/static/media/IconsAll.a6420137399fafa28786.png",
     "static/media/AppleTalk.png": "/static/media/AppleTalk.ffd41d8e44fde7b7c5d2.png",
@@ -90,6 +90,7 @@
     "static/media/TaskCow2.png": "/static/media/TaskCow2.3742b83b655fa9e24f75.png",
     "static/media/Neuro.png": "/static/media/Neuro.1b1029386b6194ceaa19.png",
     "static/media/SolarEdu2.png": "/static/media/SolarEdu2.194c50633e9a2d1b711a.png",
+    "static/media/MrtInSg.png": "/static/media/MrtInSg.762793451caa3f1658ac.png",
     "static/media/SfSymbols.png": "/static/media/SfSymbols.d62b9513df249e75ec95.png",
     "static/media/ColorAccent.png": "/static/media/ColorAccent.27c6eb1808c82161e40e.png",
     "static/media/MrtInSGIcon.png": "/static/media/MrtInSGIcon.22fc0c221cd7e212b4ff.png",
@@ -98,10 +99,10 @@
     "static/media/Color.jpeg": "/static/media/Color.3ae8f66df77cca7e1a3f.jpeg",
     "index.html": "/index.html",
     "main.23883dd6.css.map": "/static/css/main.23883dd6.css.map",
-    "main.6d9ab27b.js.map": "/static/js/main.6d9ab27b.js.map"
+    "main.6af77809.js.map": "/static/js/main.6af77809.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.6d9ab27b.js"
+    "static/js/main.6af77809.js"
   ]
 }
