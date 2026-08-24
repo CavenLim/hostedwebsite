@@ -122,16 +122,10 @@ export default function AboutInfoItem({
                 {image.map((image,index) => (
                         <div className="imageItem" key={index}>
 
-                       
                                             {image}
                           
-                     
-
-                                    
                         </div> 
-                                    
                                 
-
                             ))}
                     
 

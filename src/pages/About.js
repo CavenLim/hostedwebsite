@@ -211,7 +211,7 @@ export default function About() {
                         
                         title = "Tertiary"
                         item = {[
-                            "Republic Polytechnic", "University"
+                            "Republic Polytechnic", "National University Of Singapore"
                         ]}/>
                     </div>
 
@@ -223,7 +223,7 @@ export default function About() {
                         
                         title = "Frontend"
                         item = {[
-                            "Html","Css","JavaScript","SwiftUi"
+                            "Html","Css","JavaScript","SwiftUi","TypeScript"
                         ]
                        }
                        image = {[<SiHtml5/>,<SiCss3/>,<SiJavascript/>,<SiSwift/>]}
@@ -233,7 +233,7 @@ export default function About() {
                         
                         title = "Backend"
                         item = {[
-                            "Php","Python","JavaScript"
+                            "Php","Python","JavaScript","TypeScript"
                         ]}
                         image = {[<SiPhp/>,<SiPython/>,<SiJavascript/>]}
                         />
