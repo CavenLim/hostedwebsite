@@ -41,7 +41,7 @@ const filmishSS = [
         id: 5,
         name: "Fully processed Gallery",
         desc:
-          'This is what users see when they have their iamges fully processed in gallery',
+          'This is what users see when they have their images fully processed in gallery',
           img: galView,
       }
   
