@@ -4,6 +4,7 @@ import Button from '../Components/Button';
 import placeholder3 from'../assets/Images/placeholder3.jpg'
 import topTaskCow from '../assets/Images/topTaskCow.png';
 import topDuckMode from '../assets/Images/DuckModeTop.png';
+import topChartsFilmish from '../assets/Images/topChartsFilmish.png';
 import SSCImage from '../assets/Images/SSCImage.jpg';
 import AppleTalkImage from '../assets/Images/AppleTalk.png'
 import styled from 'styled-components';
@@ -377,7 +378,27 @@ export default function About() {
 
                 </div>
                
-                        
+                    <div className="topSect">
+                    <div className="topLeft">
+     <img src={topChartsFilmish} alt=""/>
+                   
+                   
+                       
+                     
+                    </div>
+                    <div className="topRight">
+               
+ <h2 className="aboutHeader">
+                            Filmish
+                        </h2>
+                        <div className="aboutInfo">
+                            <PText>
+                            On the week of 3rd October 2026 my application Filmish was on the top charts #13 in Singapore, i was delighted to have gain so much support.
+                            </PText>
+                        </div>
+                    </div>
+
+                </div>
 
                 
 

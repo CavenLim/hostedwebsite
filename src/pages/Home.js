@@ -25,9 +25,9 @@ export default function Home() {
             <FilmishBanner />
             <DuckModeBanner/>
             <TaskCowBanner/>
-            <RpAppBanner/>
-            <SolarEduBanner/>
-            <DogCommBannerTwo/>
+            {/* <RpAppBanner/> */}
+            {/* <SolarEduBanner/> */}
+            {/* <DogCommBannerTwo/> */}
         
         
             
